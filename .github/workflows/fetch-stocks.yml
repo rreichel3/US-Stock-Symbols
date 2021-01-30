@@ -4,11 +4,6 @@ name: CI
 
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -31,7 +26,7 @@ jobs:
         #https://www.nasdaq.com/market-activity/stocks/screener?exchange=nyse&letter=0&render=download
         run: "curl --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' https://api.nasdaq.com/api/screener/stocks\\?tableonly\\=true\\&limit\\=25\\&offset\\=0\\&exchange\\=nasdaq\\&download\\=true >> /tmp/nasdaq.json"
       - name: gen-stock-tickers-json
-        run: "cat /tmp/nasdaq.json | jq '[.data.rows' >> $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json"
+        run: "cat /tmp/nasdaq.json | jq '.data.rows' >> $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json"
       - name: gen-stock-tickers-json
         run: "cat /tmp/nasdaq.json | jq '[.data.rows | .[] | .symbol]' >> $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.json"
       - name: gen-stock-tickers-txt
