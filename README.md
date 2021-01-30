@@ -1,6 +1,8 @@
 # US-Stock-Symbols
 
-An aggregation of current US Stock Symbols in `json` and `txt` formats. 
+An aggregation of current US Stock Symbols in `json` and `txt` formats.  
+
+Updated nightly at midnight, Eastern.
 ## Exchanges Available:
 
 - NASDAQ
