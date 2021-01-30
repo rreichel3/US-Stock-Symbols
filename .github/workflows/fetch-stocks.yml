@@ -53,7 +53,7 @@ jobs:
       - name: make-all-directory
         run: mkdir -p $GITHUB_WORKSPACE/all
       - name: concat-files
-        run: cat $GITHUB_WORKSPACE/amex/amex_tickers.txt $GITHUB_WORKSPACE/nyse/nyse_tickers.txt $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt | sort -u | uniq >> $GITHUB_WORKSPACE/all/all_tickers.txt
+        run: cat $GITHUB_WORKSPACE/amex/amex_tickers.txt $GITHUB_WORKSPACE/nyse/nyse_tickers.txt $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt >> /tmp/all_tickers.txt && cat /tmp/all_tickers.txt | sort -u >> $GITHUB_WORKSPACE/all/all_tickers.txt
       - name: commit-new-files
         run: |
           git config user.name github-actions
