@@ -20,41 +20,41 @@ jobs:
       - name: make-nasdaq-directory
         run: mkdir -p $GITHUB_WORKSPACE/nasdaq
       - name: get-nasdaq
-        run: "curl --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' https://api.nasdaq.com/api/screener/stocks\\?tableonly\\=true\\&limit\\=25\\&offset\\=0\\&exchange\\=nasdaq\\&download\\=true >> /tmp/nasdaq.json"
+        run: "curl --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' https://api.nasdaq.com/api/screener/stocks\\?tableonly\\=true\\&limit\\=25\\&offset\\=0\\&exchange\\=nasdaq\\&download\\=true > /tmp/nasdaq.json"
       - name: gen-nasdaq-stock-tickers-json
-        run: "cat /tmp/nasdaq.json | jq '.data.rows' >> $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json"
+        run: "cat /tmp/nasdaq.json | jq '.data.rows' > $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json"
       - name: gen-nasdaq-stock-tickers-json
-        run: "cat /tmp/nasdaq.json | jq '[.data.rows | .[] | .symbol]' >> $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.json"
+        run: "cat /tmp/nasdaq.json | jq '[.data.rows | .[] | .symbol]' > $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.json"
       - name: gen-nasdaq-stock-tickers-txt
-        run: "cat /tmp/nasdaq.json | jq '[.data.rows | .[] | .symbol]' | grep -Ei '([A-Za-z]+)' -o >> $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt"
+        run: "cat /tmp/nasdaq.json | jq '[.data.rows | .[] | .symbol]' | grep -Ei '([A-Za-z]+)' -o > $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt"
       
       # Generate NYSE Data
       - name: make-nyse-directory
         run: mkdir -p $GITHUB_WORKSPACE/nyse
       - name: get-nyse
-        run: "curl --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' https://api.nasdaq.com/api/screener/stocks\\?tableonly\\=true\\&limit\\=25\\&offset\\=0\\&exchange\\=nyse\\&download\\=true >> /tmp/nyse.json"
+        run: "curl --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' https://api.nasdaq.com/api/screener/stocks\\?tableonly\\=true\\&limit\\=25\\&offset\\=0\\&exchange\\=nyse\\&download\\=true > /tmp/nyse.json"
       - name: gen-nyse-stock-tickers-json
-        run: "cat /tmp/nyse.json | jq '.data.rows' >> $GITHUB_WORKSPACE/nyse/nyse_full_tickers.json"
+        run: "cat /tmp/nyse.json | jq '.data.rows' > $GITHUB_WORKSPACE/nyse/nyse_full_tickers.json"
       - name: gen-nyse-stock-tickers-json
-        run: "cat /tmp/nyse.json | jq '[.data.rows | .[] | .symbol]' >> $GITHUB_WORKSPACE/nyse/nyse_tickers.json"
+        run: "cat /tmp/nyse.json | jq '[.data.rows | .[] | .symbol]' > $GITHUB_WORKSPACE/nyse/nyse_tickers.json"
       - name: gen-nyse-stock-tickers-txt
-        run: "cat /tmp/nyse.json | jq '[.data.rows | .[] | .symbol]' | grep -Ei '([A-Za-z]+)' -o >> $GITHUB_WORKSPACE/nyse/nyse_tickers.txt"
+        run: "cat /tmp/nyse.json | jq '[.data.rows | .[] | .symbol]' | grep -Ei '([A-Za-z]+)' -o > $GITHUB_WORKSPACE/nyse/nyse_tickers.txt"
       # Generate AMEX Data
       - name: make-amex-directory
         run: mkdir -p $GITHUB_WORKSPACE/amex
       - name: get-amex
-        run: "curl --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' https://api.nasdaq.com/api/screener/stocks\\?tableonly\\=true\\&limit\\=25\\&offset\\=0\\&exchange\\=amex\\&download\\=true >> /tmp/amex.json"
+        run: "curl --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' https://api.nasdaq.com/api/screener/stocks\\?tableonly\\=true\\&limit\\=25\\&offset\\=0\\&exchange\\=amex\\&download\\=true > /tmp/amex.json"
       - name: gen-amex-stock-tickers-json
-        run: "cat /tmp/amex.json | jq '.data.rows' >> $GITHUB_WORKSPACE/amex/amex_full_tickers.json"
+        run: "cat /tmp/amex.json | jq '.data.rows' > $GITHUB_WORKSPACE/amex/amex_full_tickers.json"
       - name: gen-amex-stock-tickers-json
-        run: "cat /tmp/amex.json | jq '[.data.rows | .[] | .symbol]' >> $GITHUB_WORKSPACE/amex/amex_tickers.json"
+        run: "cat /tmp/amex.json | jq '[.data.rows | .[] | .symbol]' > $GITHUB_WORKSPACE/amex/amex_tickers.json"
       - name: gen-amex-stock-tickers-txt
-        run: "cat /tmp/amex.json | jq '[.data.rows | .[] | .symbol]' | grep -Ei '([A-Za-z]+)' -o >> $GITHUB_WORKSPACE/amex/amex_tickers.txt"
+        run: "cat /tmp/amex.json | jq '[.data.rows | .[] | .symbol]' | grep -Ei '([A-Za-z]+)' -o > $GITHUB_WORKSPACE/amex/amex_tickers.txt"
       # Concat all Data
       - name: make-all-directory
         run: mkdir -p $GITHUB_WORKSPACE/all
       - name: concat-files
-        run: cat $GITHUB_WORKSPACE/amex/amex_tickers.txt $GITHUB_WORKSPACE/nyse/nyse_tickers.txt $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt >> /tmp/all_tickers.txt && cat /tmp/all_tickers.txt | sort -u | uniq >> $GITHUB_WORKSPACE/all/all_tickers.txt
+        run: cat $GITHUB_WORKSPACE/amex/amex_tickers.txt $GITHUB_WORKSPACE/nyse/nyse_tickers.txt $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt > /tmp/all_tickers.txt && cat /tmp/all_tickers.txt | sort -u | uniq > $GITHUB_WORKSPACE/all/all_tickers.txt
       - name: commit-new-files
         run: |
           git config user.name github-actions
