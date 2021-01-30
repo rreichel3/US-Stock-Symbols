@@ -29,7 +29,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: get-nasdaq
         #https://www.nasdaq.com/market-activity/stocks/screener?exchange=nyse&letter=0&render=download
-        run: "curl --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' https://api.nasdaq.com/api/screener/stocks\?tableonly\=true\&limit\=25\&offset\=0\&exchange\=nasdaq\&download\=true >> /tmp/nasdaq.json"
+        run: "curl --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' https://api.nasdaq.com/api/screener/stocks\\?tableonly\\=true\\&limit\\=25\\&offset\\=0\\&exchange\\=nasdaq\\&download\\=true >> /tmp/nasdaq.json"
       - name: gen-stock-tickers-json
         run: "cat /tmp/nasdaq.json | jq '[.data.rows' >> $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json"
       - name: gen-stock-tickers-json
