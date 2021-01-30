@@ -31,7 +31,7 @@ jobs:
       - name: make-nyse-directory
         run: mkdir -p $GITHUB_WORKSPACE/nyse
       - name: get-nyse
-        run: "curl --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' https://api.nyse.com/api/screener/stocks\\?tableonly\\=true\\&limit\\=25\\&offset\\=0\\&exchange\\=nyse\\&download\\=true >> /tmp/nyse.json"
+        run: "curl --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' https://api.nasdaq.com/api/screener/stocks\\?tableonly\\=true\\&limit\\=25\\&offset\\=0\\&exchange\\=nyse\\&download\\=true >> /tmp/nyse.json"
       - name: gen-nyse-stock-tickers-json
         run: "cat /tmp/nyse.json | jq '.data.rows' >> $GITHUB_WORKSPACE/nyse/nyse_full_tickers.json"
       - name: gen-nyse-stock-tickers-json
@@ -42,7 +42,7 @@ jobs:
       - name: make-amex-directory
         run: mkdir -p $GITHUB_WORKSPACE/amex
       - name: get-amex
-        run: "curl --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' https://api.amex.com/api/screener/stocks\\?tableonly\\=true\\&limit\\=25\\&offset\\=0\\&exchange\\=amex\\&download\\=true >> /tmp/amex.json"
+        run: "curl --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' https://api.nasdaq.com/api/screener/stocks\\?tableonly\\=true\\&limit\\=25\\&offset\\=0\\&exchange\\=amex\\&download\\=true >> /tmp/amex.json"
       - name: gen-amex-stock-tickers-json
         run: "cat /tmp/amex.json | jq '.data.rows' >> $GITHUB_WORKSPACE/amex/amex_full_tickers.json"
       - name: gen-amex-stock-tickers-json
