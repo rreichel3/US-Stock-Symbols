@@ -207,9 +207,9 @@ B
 PCG
 C
 PCG
-G
+D
 PCG
-I
+G
 PED
 PHGE
 PLAG
