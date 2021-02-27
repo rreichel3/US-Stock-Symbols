@@ -33,8 +33,6 @@ BMTX
 BRBS
 BRG
 BRG
-A
-BRG
 C
 BRG
 D
@@ -207,8 +205,6 @@ PCG
 D
 PCG
 E
-PCG
-G
 PCG
 H
 PCG
