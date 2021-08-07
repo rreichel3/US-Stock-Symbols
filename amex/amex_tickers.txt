@@ -115,7 +115,6 @@ GGN
 GGN
 B
 GGO
-GGO
 A
 GLDG
 GLO
@@ -212,6 +211,8 @@ D
 PCG
 E
 PCG
+G
+PCG
 H
 PCG
 I
@@ -227,8 +228,6 @@ PRK
 PTK
 PTN
 PW
-PW
-A
 PZG
 RCG
 REI
