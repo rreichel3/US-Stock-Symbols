@@ -111,8 +111,6 @@ GGN
 GGN
 B
 GGO
-GGO
-A
 GLDG
 GLO
 GLQ
@@ -203,9 +201,9 @@ A
 PCG
 B
 PCG
-D
+C
 PCG
-E
+D
 PCG
 G
 PCG
