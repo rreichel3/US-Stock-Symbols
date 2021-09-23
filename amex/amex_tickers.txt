@@ -198,9 +198,9 @@ ORLA
 PCG
 A
 PCG
-C
+B
 PCG
-D
+C
 PCG
 E
 PCG
