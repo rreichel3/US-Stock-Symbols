@@ -71,6 +71,8 @@ DXF
 DXR
 EAD
 ECF
+ECF
+A
 EIM
 ELA
 ELLO
@@ -196,9 +198,9 @@ A
 PCG
 B
 PCG
-C
-PCG
 D
+PCG
+E
 PCG
 G
 PCG
