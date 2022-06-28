@@ -27,7 +27,6 @@ BCV
 BCV
 A
 BDL
-BDR
 BGI
 BHB
 BKTI
@@ -209,6 +208,8 @@ PCG
 D
 PCG
 E
+PCG
+G
 PCG
 I
 PED
