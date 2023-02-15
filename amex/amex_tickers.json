@@ -1,6 +1,7 @@
 [
   "AAMC",
   "AAU",
+  "ACAQ",
   "ACU",
   "ADRT",
   "AE",
@@ -115,6 +116,7 @@
   "GLTA",
   "GLU",
   "GLU^A",
+  "GLU^B",
   "GLV",
   "GNS",
   "GORO",
@@ -207,7 +209,6 @@
   "PCG^E",
   "PCG^G",
   "PCG^H",
-  "PCG^I",
   "PED",
   "PHGE",
   "PLAG",
