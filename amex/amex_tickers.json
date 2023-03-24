@@ -1,7 +1,6 @@
 [
   "AAMC",
   "AAU",
-  "ACAQ",
   "ACU",
   "ADEX",
   "ADRT",
@@ -70,7 +69,6 @@
   "DIT",
   "DLA",
   "DMF",
-  "DMYY",
   "DNN",
   "DPSI",
   "DSS",
@@ -212,6 +210,7 @@
   "PCG^C",
   "PCG^D",
   "PCG^E",
+  "PCG^G",
   "PCG^H",
   "PCG^I",
   "PED",
