@@ -1,7 +1,6 @@
 [
   "AAMC",
   "AAU",
-  "ACAQ",
   "ACU",
   "ADEX",
   "ADRT",
@@ -183,6 +182,7 @@
   "MSN",
   "MTA",
   "MTNB",
+  "MWG",
   "MXC",
   "MYO",
   "NAK",
@@ -234,6 +234,7 @@
   "REI",
   "REPX",
   "RHE",
+  "RHE^A",
   "RLGT",
   "RMED",
   "RVP",
