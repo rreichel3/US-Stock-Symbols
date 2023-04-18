@@ -1,7 +1,6 @@
 [
   "AAMC",
   "AAU",
-  "ACAQ",
   "ACU",
   "ADEX",
   "ADRT",
@@ -104,7 +103,6 @@
   "FCO",
   "FEN",
   "FGH",
-  "FLAG",
   "FOXO",
   "FRD",
   "FSI",
@@ -122,6 +120,7 @@
   "GLTA",
   "GLU",
   "GLU^A",
+  "GLU^B",
   "GLV",
   "GNS",
   "GORO",
