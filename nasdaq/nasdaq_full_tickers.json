@@ -205,7 +205,7 @@
     "marketCap": "1108232971.00",
     "country": "Canada",
     "ipoyear": "2020",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Pharmaceuticals and Biotechnology",
     "sector": "Health Care",
     "url": "/market-activity/stocks/abcl"
   },
@@ -359,7 +359,7 @@
     "marketCap": "543506138.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Pharmaceuticals and Biotechnology",
     "sector": "Health Care",
     "url": "/market-activity/stocks/abus"
   },
@@ -429,7 +429,7 @@
     "marketCap": "352324369.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": " Medicinal Chemicals and Botanical Products ",
+    "industry": "Pharmaceuticals and Biotechnology",
     "sector": "Health Care",
     "url": "/market-activity/stocks/acb"
   },
@@ -443,7 +443,7 @@
     "marketCap": "45815623.00",
     "country": "Hong Kong",
     "ipoyear": "2021",
-    "industry": "Catalog/Specialty Distribution",
+    "industry": "Business Services",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/acba"
   },
@@ -625,7 +625,7 @@
     "marketCap": "3788451727.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "EDP Services",
+    "industry": "Computer Software: Prepackaged Software",
     "sector": "Technology",
     "url": "/market-activity/stocks/aciw"
   },
@@ -765,7 +765,7 @@
     "marketCap": "25942355.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Pharmaceuticals and Biotechnology",
     "sector": "Health Care",
     "url": "/market-activity/stocks/acst"
   },
@@ -891,7 +891,7 @@
     "marketCap": "1220708790.00",
     "country": "United States",
     "ipoyear": "2003",
-    "industry": "Computer Software: Prepackaged Software",
+    "industry": "Semiconductors",
     "sector": "Technology",
     "url": "/market-activity/stocks/adea"
   },
@@ -947,8 +947,8 @@
     "marketCap": "6709601.00",
     "country": "United States",
     "ipoyear": "2018",
-    "industry": "Power Generation",
-    "sector": "Utilities",
+    "industry": "Industrial Machinery/Components",
+    "sector": "Miscellaneous",
     "url": "/market-activity/stocks/adn"
   },
   {
@@ -961,8 +961,8 @@
     "marketCap": "362681.00",
     "country": "United States",
     "ipoyear": "2018",
-    "industry": "Power Generation",
-    "sector": "Utilities",
+    "industry": "Industrial Machinery/Components",
+    "sector": "Miscellaneous",
     "url": "/market-activity/stocks/adnww"
   },
   {
@@ -1353,7 +1353,7 @@
     "marketCap": "9990965.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Pharmaceuticals and Biotechnology",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/aezs"
   },
@@ -1465,8 +1465,8 @@
     "marketCap": "35092284.00",
     "country": "United States",
     "ipoyear": "2017",
-    "industry": "Services-Misc. Amusement & Recreation",
-    "sector": "Consumer Discretionary",
+    "industry": "Cable & Other Pay Television Services",
+    "sector": "Telecommunications",
     "url": "/market-activity/stocks/agae"
   },
   {
@@ -1647,8 +1647,8 @@
     "marketCap": "2223533.00",
     "country": "Canada",
     "ipoyear": "2021",
-    "industry": "",
-    "sector": "",
+    "industry": "Metal Fabrications",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/agri"
   },
   {
@@ -2417,7 +2417,7 @@
     "marketCap": "81742880.00",
     "country": "Israel",
     "ipoyear": "2006",
-    "industry": "Telecommunications Equipment",
+    "industry": "Computer Communications Equipment",
     "sector": "Telecommunications",
     "url": "/market-activity/stocks/allt"
   },
@@ -2655,7 +2655,7 @@
     "marketCap": "90229737.00",
     "country": "United States",
     "ipoyear": "2020",
-    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/alvr"
   },
@@ -2711,7 +2711,7 @@
     "marketCap": "174264102474.00",
     "country": "United States",
     "ipoyear": "1972",
-    "industry": "Industrial Machinery/Components",
+    "industry": "Semiconductors",
     "sector": "Technology",
     "url": "/market-activity/stocks/amat"
   },
@@ -2781,7 +2781,7 @@
     "marketCap": "166375219724.00",
     "country": "United States",
     "ipoyear": "1983",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
     "sector": "Health Care",
     "url": "/market-activity/stocks/amgn"
   },
@@ -2823,8 +2823,8 @@
     "marketCap": "144678019.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Industrial Machinery/Components",
-    "sector": "Industrials",
+    "industry": "Metal Mining",
+    "sector": "Basic Materials",
     "url": "/market-activity/stocks/amli"
   },
   {
@@ -2851,8 +2851,8 @@
     "marketCap": "22446531.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Industrial Machinery/Components",
-    "sector": "Technology",
+    "industry": "Telecommunications Equipment",
+    "sector": "Telecommunications",
     "url": "/market-activity/stocks/ampg"
   },
   {
@@ -2949,7 +2949,7 @@
     "marketCap": "896857825.00",
     "country": "United States",
     "ipoyear": "2005",
-    "industry": "Property-Casualty Insurers",
+    "industry": "Accident &Health Insurance",
     "sector": "Finance",
     "url": "/market-activity/stocks/amsf"
   },
@@ -3089,8 +3089,8 @@
     "marketCap": "1219232708.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Advertising",
-    "sector": "Consumer Discretionary",
+    "industry": "EDP Services",
+    "sector": "Technology",
     "url": "/market-activity/stocks/angi"
   },
   {
@@ -3215,8 +3215,8 @@
     "marketCap": "28656218763.00",
     "country": "United States",
     "ipoyear": "1996",
-    "industry": "Computer Software: Prepackaged Software",
-    "sector": "Technology",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/anss"
   },
   {
@@ -3257,8 +3257,8 @@
     "marketCap": "15237214.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Finance: Consumer Services",
-    "sector": "Finance",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/any"
   },
   {
@@ -3412,7 +3412,7 @@
     "country": "United States",
     "ipoyear": "2007",
     "industry": "Other Consumer Services",
-    "sector": "Consumer Discretionary",
+    "sector": "Real Estate",
     "url": "/market-activity/stocks/apei"
   },
   {
@@ -3593,7 +3593,7 @@
     "marketCap": "30354902.00",
     "country": "United States",
     "ipoyear": "2019",
-    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/apre"
   },
@@ -3691,8 +3691,8 @@
     "marketCap": "7251995.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Meat/Poultry/Fish",
-    "sector": "Consumer Staples",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/aqb"
   },
   {
@@ -4251,7 +4251,7 @@
     "marketCap": "413847938.00",
     "country": "United States",
     "ipoyear": "2019",
-    "industry": "Industrial Specialties",
+    "industry": "Aerospace",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/asle"
   },
@@ -4629,8 +4629,8 @@
     "marketCap": "21404788.00",
     "country": "United States",
     "ipoyear": "2019",
-    "industry": "",
-    "sector": "",
+    "industry": "Home Furnishings",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/ater"
   },
   {
@@ -5437,7 +5437,7 @@
     "lastsale": "$10.85",
     "netchange": "-0.64",
     "pctchange": "-5.57%",
-    "volume": "57442",
+    "volume": "57542",
     "marketCap": "11220311.00",
     "country": "United States",
     "ipoyear": "2015",
@@ -5469,7 +5469,7 @@
     "marketCap": "36661989.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Biotechnology: In Vitro & In Vivo Diagnostic Substances",
+    "industry": "Medical/Dental Instruments",
     "sector": "Health Care",
     "url": "/market-activity/stocks/awh"
   },
@@ -5693,8 +5693,8 @@
     "marketCap": "2877480966.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Industrial Machinery/Components",
-    "sector": "Technology",
+    "industry": "Medical/Dental Instruments",
+    "sector": "Health Care",
     "url": "/market-activity/stocks/azta"
   },
   {
@@ -5875,7 +5875,7 @@
     "marketCap": "2391496450.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Movies/Entertainment",
+    "industry": "Services-Misc. Amusement & Recreation",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/batrk"
   },
@@ -6169,7 +6169,7 @@
     "marketCap": "43486122.00",
     "country": "United States",
     "ipoyear": "2019",
-    "industry": "Finance: Consumer Services",
+    "industry": "Banks",
     "sector": "Finance",
     "url": "/market-activity/stocks/bcow"
   },
@@ -6323,7 +6323,7 @@
     "marketCap": "315996057.00",
     "country": "United States",
     "ipoyear": "2020",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
     "sector": "Health Care",
     "url": "/market-activity/stocks/bdtx"
   },
@@ -7163,7 +7163,7 @@
     "marketCap": "270711063.00",
     "country": "United States",
     "ipoyear": "2019",
-    "industry": "Aerospace",
+    "industry": "Transportation Services",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/blde"
   },
@@ -7849,7 +7849,7 @@
     "marketCap": "12681910784.00",
     "country": "Bermuda",
     "ipoyear": "",
-    "industry": "Real Estate",
+    "industry": "Finance/Investors Services",
     "sector": "Finance",
     "url": "/market-activity/stocks/bpypo"
   },
@@ -7863,7 +7863,7 @@
     "marketCap": "12799085510.00",
     "country": "Bermuda",
     "ipoyear": "",
-    "industry": "Finance/Investors Services",
+    "industry": "Real Estate",
     "sector": "Finance",
     "url": "/market-activity/stocks/bpypp"
   },
@@ -8157,8 +8157,8 @@
     "marketCap": "30784.00",
     "country": "Canada",
     "ipoyear": "2022",
-    "industry": "",
-    "sector": "",
+    "industry": "Medical/Dental Instruments",
+    "sector": "Health Care",
     "url": "/market-activity/stocks/brsh"
   },
   {
@@ -8171,8 +8171,8 @@
     "marketCap": "4807.00",
     "country": "Canada",
     "ipoyear": "2022",
-    "industry": "Medical/Dental Instruments",
-    "sector": "Health Care",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/brshw"
   },
   {
@@ -8675,8 +8675,8 @@
     "marketCap": "46367683.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Metal Fabrications",
-    "sector": "Telecommunications",
+    "industry": "Industrial Machinery/Components",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/bwen"
   },
   {
@@ -8815,8 +8815,8 @@
     "marketCap": "23544969.00",
     "country": "China",
     "ipoyear": "2013",
-    "industry": "Steel/Iron Ore",
-    "sector": "Industrials",
+    "industry": "EDP Services",
+    "sector": "Technology",
     "url": "/market-activity/stocks/byu"
   },
   {
@@ -8899,7 +8899,7 @@
     "marketCap": "543200585.00",
     "country": "United States",
     "ipoyear": "2019",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
     "sector": "Health Care",
     "url": "/market-activity/stocks/caba"
   },
@@ -9081,7 +9081,7 @@
     "marketCap": "166418235.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/capr"
   },
@@ -9469,7 +9469,7 @@
     "lastsale": "$6.16",
     "netchange": "-0.64",
     "pctchange": "-9.412%",
-    "volume": "1457585",
+    "volume": "1457586",
     "marketCap": "423843642.00",
     "country": "United States",
     "ipoyear": "2020",
@@ -10705,7 +10705,7 @@
     "marketCap": "9323150.00",
     "country": "Hong Kong",
     "ipoyear": "",
-    "industry": "Metal Mining",
+    "industry": "Precious Metals",
     "sector": "Basic Materials",
     "url": "/market-activity/stocks/chnr"
   },
@@ -10957,8 +10957,8 @@
     "marketCap": "5716078148.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Real Estate",
-    "sector": "Finance",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/cigi"
   },
   {
@@ -11251,7 +11251,7 @@
     "marketCap": "1281162795.00",
     "country": "United States",
     "ipoyear": "2006",
-    "industry": "Integrated oil Companies",
+    "industry": "Oil & Gas Production",
     "sector": "Energy",
     "url": "/market-activity/stocks/clmt"
   },
@@ -11475,7 +11475,7 @@
     "marketCap": "4053752.00",
     "country": "Colombia",
     "ipoyear": "",
-    "industry": "Pharmaceuticals and Biotechnology",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/clvr"
   },
@@ -11783,8 +11783,8 @@
     "marketCap": "5852220.00",
     "country": "China",
     "ipoyear": "",
-    "industry": "Advertising",
-    "sector": "Consumer Discretionary",
+    "industry": "Computer Software: Programming Data Processing",
+    "sector": "Technology",
     "url": "/market-activity/stocks/cnet"
   },
   {
@@ -12021,8 +12021,8 @@
     "marketCap": "1712568478.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Catalog/Specialty Distribution",
-    "sector": "Consumer Discretionary",
+    "industry": "Retail: Computer Software & Peripheral Equipment",
+    "sector": "Technology",
     "url": "/market-activity/stocks/cnxn"
   },
   {
@@ -12721,7 +12721,7 @@
     "marketCap": "139343844.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Pharmaceuticals and Biotechnology",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
     "sector": "Health Care",
     "url": "/market-activity/stocks/crdl"
   },
@@ -12931,7 +12931,7 @@
     "marketCap": "378284360.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Retail-Auto Dealers and Gas Stations",
+    "industry": "Other Specialty Stores",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/crmt"
   },
@@ -12945,7 +12945,7 @@
     "marketCap": "222959308.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Computer Software: Prepackaged Software",
+    "industry": "EDP Services",
     "sector": "Technology",
     "url": "/market-activity/stocks/crnc"
   },
@@ -13113,7 +13113,7 @@
     "marketCap": "77581790740.00",
     "country": "United States",
     "ipoyear": "2019",
-    "industry": "Computer Software: Prepackaged Software",
+    "industry": "EDP Services",
     "sector": "Technology",
     "url": "/market-activity/stocks/crwd"
   },
@@ -13351,8 +13351,8 @@
     "marketCap": "213065229.00",
     "country": "Israel",
     "ipoyear": "2012",
-    "industry": "Building Materials",
-    "sector": "Industrials",
+    "industry": "Multi-Sector Companies",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/cste"
   },
   {
@@ -13435,7 +13435,7 @@
     "marketCap": "71051669377.00",
     "country": "United States",
     "ipoyear": "1983",
-    "industry": "Apparel",
+    "industry": "Business Services",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/ctas"
   },
@@ -14219,8 +14219,8 @@
     "marketCap": "26257512.00",
     "country": "United States",
     "ipoyear": "1981",
-    "industry": "Electrical Products",
-    "sector": "Industrials",
+    "industry": "Industrial Machinery/Components",
+    "sector": "Technology",
     "url": "/market-activity/stocks/daio"
   },
   {
@@ -14513,7 +14513,7 @@
     "marketCap": "39795323664.00",
     "country": "United States",
     "ipoyear": "2019",
-    "industry": "Computer Software: Prepackaged Software",
+    "industry": "EDP Services",
     "sector": "Technology",
     "url": "/market-activity/stocks/ddog"
   },
@@ -14611,8 +14611,8 @@
     "marketCap": "39595701.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "",
-    "sector": "",
+    "industry": "Finance: Consumer Services",
+    "sector": "Finance",
     "url": "/market-activity/stocks/dghi"
   },
   {
@@ -14905,7 +14905,7 @@
     "marketCap": "163108931.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Business Services",
+    "industry": "Professional Services",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/dlhc"
   },
@@ -14975,7 +14975,7 @@
     "marketCap": "118447418.00",
     "country": "United States",
     "ipoyear": "2018",
-    "industry": "Pharmaceuticals and Biotechnology",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/dmac"
   },
@@ -15072,8 +15072,8 @@
     "volume": "988369",
     "marketCap": "11920239936.00",
     "country": "United States",
-    "ipoyear": "2018",
-    "industry": "EDP Services",
+    "ipoyear": "1989",
+    "industry": "Computer Software: Prepackaged Software",
     "sector": "Technology",
     "url": "/market-activity/stocks/docu"
   },
@@ -15199,8 +15199,8 @@
     "marketCap": "12454462.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Aerospace",
-    "sector": "Industrials",
+    "industry": "Electronic Components",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/dpro"
   },
   {
@@ -15311,7 +15311,7 @@
     "marketCap": "4732114.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Pharmaceuticals and Biotechnology",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/drug"
   },
@@ -15353,8 +15353,8 @@
     "marketCap": "1663116700.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Industrial Specialties",
-    "sector": "Consumer Discretionary",
+    "industry": "Industrial Machinery/Components",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/dsgr"
   },
   {
@@ -15451,7 +15451,7 @@
     "marketCap": "19087911.00",
     "country": "China",
     "ipoyear": "",
-    "industry": "Retail: Computer Software & Peripheral Equipment",
+    "industry": "Computer Software: Prepackaged Software",
     "sector": "Technology",
     "url": "/market-activity/stocks/dtss"
   },
@@ -16235,8 +16235,8 @@
     "marketCap": "24535475.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Industrial Machinery/Components",
-    "sector": "Industrials",
+    "industry": "Medical/Dental Instruments",
+    "sector": "Health Care",
     "url": "/market-activity/stocks/ekso"
   },
   {
@@ -17509,8 +17509,8 @@
     "marketCap": "4975480535.00",
     "country": "United States",
     "ipoyear": "2006",
-    "industry": "Retail: Computer Software & Peripheral Equipment",
-    "sector": "Technology",
+    "industry": "Business Services",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/exls"
   },
   {
@@ -17565,7 +17565,7 @@
     "marketCap": "1404733556.00",
     "country": "United States",
     "ipoyear": "1999",
-    "industry": "Computer Communications Equipment",
+    "industry": "Telecommunications Equipment",
     "sector": "Telecommunications",
     "url": "/market-activity/stocks/extr"
   },
@@ -18727,7 +18727,7 @@
     "marketCap": "12309225.00",
     "country": "Canada",
     "ipoyear": "2021",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Pharmaceuticals and Biotechnology",
     "sector": "Health Care",
     "url": "/market-activity/stocks/flgc"
   },
@@ -19581,7 +19581,7 @@
     "marketCap": "111059787.00",
     "country": "United States",
     "ipoyear": "2008",
-    "industry": "Major Banks",
+    "industry": "Savings Institutions",
     "sector": "Finance",
     "url": "/market-activity/stocks/fsfg"
   },
@@ -19623,8 +19623,8 @@
     "marketCap": "6775389467.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Real Estate",
-    "sector": "Finance",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/fsv"
   },
   {
@@ -20015,8 +20015,8 @@
     "marketCap": "14722471505.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Broadcasting",
-    "sector": "Industrials",
+    "industry": "Movies/Entertainment",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/fwona"
   },
   {
@@ -20995,7 +20995,7 @@
     "marketCap": "14588950.00",
     "country": "Taiwan",
     "ipoyear": "",
-    "industry": "Computer Software: Programming Data Processing",
+    "industry": "EDP Services",
     "sector": "Technology",
     "url": "/market-activity/stocks/gigm"
   },
@@ -21023,7 +21023,7 @@
     "marketCap": "82176477666.00",
     "country": "United States",
     "ipoyear": "1992",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
     "sector": "Health Care",
     "url": "/market-activity/stocks/gild"
   },
@@ -21107,8 +21107,8 @@
     "marketCap": "482296622.00",
     "country": "United States",
     "ipoyear": "2001",
-    "industry": "Textiles",
-    "sector": "Consumer Discretionary",
+    "industry": "Finance/Investors Services",
+    "sector": "Finance",
     "url": "/market-activity/stocks/glad"
   },
   {
@@ -21387,8 +21387,8 @@
     "marketCap": "19055895894.00",
     "country": "Denmark",
     "ipoyear": "2019",
-    "industry": "",
-    "sector": "",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "sector": "Health Care",
     "url": "/market-activity/stocks/gmab"
   },
   {
@@ -21653,7 +21653,7 @@
     "marketCap": "591201586.00",
     "country": "United States",
     "ipoyear": "2003",
-    "industry": "Real Estate",
+    "industry": "Real Estate Investment Trusts",
     "sector": "Real Estate",
     "url": "/market-activity/stocks/good"
   },
@@ -21667,7 +21667,7 @@
     "marketCap": "891208353.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Real Estate",
+    "industry": "Real Estate Investment Trusts",
     "sector": "Real Estate",
     "url": "/market-activity/stocks/goodn"
   },
@@ -21681,7 +21681,7 @@
     "marketCap": "799483988.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Real Estate Investment Trusts",
+    "industry": "Real Estate",
     "sector": "Real Estate",
     "url": "/market-activity/stocks/goodo"
   },
@@ -22241,7 +22241,7 @@
     "marketCap": "1019619200.00",
     "country": "United Kingdom",
     "ipoyear": "",
-    "industry": "Other Metals and Minerals",
+    "industry": "Metal Mining",
     "sector": "Basic Materials",
     "url": "/market-activity/stocks/gsm"
   },
@@ -22647,8 +22647,8 @@
     "marketCap": "758031426.00",
     "country": "United States",
     "ipoyear": "2007",
-    "industry": "Steel/Iron Ore",
-    "sector": "Industrials",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/hayn"
   },
   {
@@ -22787,8 +22787,8 @@
     "marketCap": "604468534.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Retail: Computer Software & Peripheral Equipment",
-    "sector": "Technology",
+    "industry": "Professional Services",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/hckt"
   },
   {
@@ -22941,7 +22941,7 @@
     "marketCap": "2438146867.00",
     "country": "Bermuda",
     "ipoyear": "",
-    "industry": "Home Furnishings",
+    "industry": "Other Consumer Services",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/hele"
   },
@@ -23165,8 +23165,8 @@
     "marketCap": "178325028.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "",
-    "sector": "",
+    "industry": "Other Specialty Stores",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/hiti"
   },
   {
@@ -23179,8 +23179,8 @@
     "marketCap": "237236392.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Finance: Consumer Services",
-    "sector": "Finance",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/hive"
   },
   {
@@ -23417,7 +23417,7 @@
     "marketCap": "20286551.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Services-Misc. Amusement & Recreation",
+    "industry": "Movies/Entertainment",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/hofv"
   },
@@ -23431,7 +23431,7 @@
     "marketCap": "78028.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Services-Misc. Amusement & Recreation",
+    "industry": "Movies/Entertainment",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/hofvw"
   },
@@ -23446,7 +23446,7 @@
     "country": "China",
     "ipoyear": "",
     "industry": "Industrial Machinery/Components",
-    "sector": "Energy",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/holi"
   },
   {
@@ -23823,7 +23823,7 @@
     "marketCap": "414645964.00",
     "country": "United States",
     "ipoyear": "2010",
-    "industry": "Finance: Consumer Services",
+    "industry": "Finance/Investors Services",
     "sector": "Finance",
     "url": "/market-activity/stocks/hrzn"
   },
@@ -23847,7 +23847,7 @@
     "lastsale": "$0.088",
     "netchange": "-0.0019",
     "pctchange": "-2.113%",
-    "volume": "717884",
+    "volume": "728463",
     "marketCap": "5769423.00",
     "country": "United States",
     "ipoyear": "2022",
@@ -24341,8 +24341,8 @@
     "marketCap": "713005651.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Finance: Consumer Services",
-    "sector": "Finance",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/hut"
   },
   {
@@ -24831,7 +24831,7 @@
     "marketCap": "46934614.00",
     "country": "United States",
     "ipoyear": "2014",
-    "industry": "Finance/Investors Services",
+    "industry": "Finance: Consumer Services",
     "sector": "Finance",
     "url": "/market-activity/stocks/icmb"
   },
@@ -25125,8 +25125,8 @@
     "marketCap": "669119908.00",
     "country": "United States",
     "ipoyear": "2018",
-    "industry": "EDP Services",
-    "sector": "Technology",
+    "industry": "Business Services",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/iiiv"
   },
   {
@@ -25839,7 +25839,7 @@
     "marketCap": "248894387.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "industry": "Medical/Dental Instruments",
     "sector": "Health Care",
     "url": "/market-activity/stocks/ino"
   },
@@ -26231,7 +26231,7 @@
     "marketCap": "12024608.00",
     "country": "United States",
     "ipoyear": "2013",
-    "industry": "EDP Services",
+    "industry": "Computer Software: Programming Data Processing",
     "sector": "Technology",
     "url": "/market-activity/stocks/ipdn"
   },
@@ -27085,8 +27085,8 @@
     "marketCap": "35995280.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Home Furnishings",
-    "sector": "Consumer Discretionary",
+    "industry": "Environmental Services",
+    "sector": "Utilities",
     "url": "/market-activity/stocks/jan"
   },
   {
@@ -27309,7 +27309,7 @@
     "marketCap": "12332125825.00",
     "country": "United States",
     "ipoyear": "1985",
-    "industry": "EDP Services",
+    "industry": "Retail: Computer Software & Peripheral Equipment",
     "sector": "Technology",
     "url": "/market-activity/stocks/jkhy"
   },
@@ -27421,7 +27421,7 @@
     "marketCap": "321312902.00",
     "country": "United States",
     "ipoyear": "2020",
-    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/jspr"
   },
@@ -27435,7 +27435,7 @@
     "marketCap": "2419262.00",
     "country": "United States",
     "ipoyear": "2020",
-    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/jsprw"
   },
@@ -27897,8 +27897,8 @@
     "marketCap": "23525360.00",
     "country": "United States",
     "ipoyear": "2002",
-    "industry": "Other Specialty Stores",
-    "sector": "Consumer Discretionary",
+    "industry": "Diversified Commercial Services",
+    "sector": "Miscellaneous",
     "url": "/market-activity/stocks/kirk"
   },
   {
@@ -28485,8 +28485,8 @@
     "marketCap": "1612912.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Computer Software: Prepackaged Software",
-    "sector": "Technology",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/kwesw"
   },
   {
@@ -29381,8 +29381,8 @@
     "marketCap": "101200580.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "",
-    "sector": "",
+    "industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/lgo"
   },
   {
@@ -29578,7 +29578,7 @@
     "country": "United States",
     "ipoyear": "2005",
     "industry": "Other Consumer Services",
-    "sector": "Real Estate",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/linc"
   },
   {
@@ -29647,8 +29647,8 @@
     "marketCap": "2960204000.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Telecommunications Equipment",
-    "sector": "Telecommunications",
+    "industry": "Computer peripheral equipment",
+    "sector": "Technology",
     "url": "/market-activity/stocks/lite"
   },
   {
@@ -30151,7 +30151,7 @@
     "marketCap": "916894979.00",
     "country": "United States",
     "ipoyear": "2018",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
     "sector": "Health Care",
     "url": "/market-activity/stocks/lqda"
   },
@@ -30165,7 +30165,7 @@
     "marketCap": "571378273.00",
     "country": "United States",
     "ipoyear": "2006",
-    "industry": "Business Services",
+    "industry": "Catalog/Specialty Distribution",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/lqdt"
   },
@@ -30263,8 +30263,8 @@
     "marketCap": "318634477.00",
     "country": "South Africa",
     "ipoyear": "",
-    "industry": "Investment Bankers/Brokers/Service",
-    "sector": "Finance",
+    "industry": "EDP Services",
+    "sector": "Technology",
     "url": "/market-activity/stocks/lsak"
   },
   {
@@ -30375,8 +30375,8 @@
     "marketCap": "8072516794.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Broadcasting",
-    "sector": "Industrials",
+    "industry": "Movies/Entertainment",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/lsxma"
   },
   {
@@ -30403,8 +30403,8 @@
     "marketCap": "8065982989.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Movies/Entertainment",
-    "sector": "Consumer Discretionary",
+    "industry": "Broadcasting",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/lsxmk"
   },
   {
@@ -30445,7 +30445,7 @@
     "marketCap": "132658042.00",
     "country": "United States",
     "ipoyear": "2000",
-    "industry": "Telecommunications Equipment",
+    "industry": "Computer Communications Equipment",
     "sector": "Telecommunications",
     "url": "/market-activity/stocks/ltrx"
   },
@@ -30711,7 +30711,7 @@
     "marketCap": "467204330.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Containers/Packaging",
+    "industry": "Plastic Products",
     "sector": "Industrials",
     "url": "/market-activity/stocks/lwlg"
   },
@@ -30767,7 +30767,7 @@
     "marketCap": "440763788.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
     "sector": "Health Care",
     "url": "/market-activity/stocks/lxrx"
   },
@@ -30935,8 +30935,8 @@
     "marketCap": "170278940.00",
     "country": "United States",
     "ipoyear": "2019",
-    "industry": "Computer Software: Prepackaged Software",
-    "sector": "Technology",
+    "industry": "Other Consumer Services",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/maps"
   },
   {
@@ -30949,8 +30949,8 @@
     "marketCap": "11187625.00",
     "country": "United States",
     "ipoyear": "2019",
-    "industry": "Computer Software: Prepackaged Software",
-    "sector": "Technology",
+    "industry": "Other Consumer Services",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/mapsw"
   },
   {
@@ -31257,7 +31257,7 @@
     "marketCap": "13293124.00",
     "country": "Israel",
     "ipoyear": "",
-    "industry": "Medical/Dental Instruments",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
     "sector": "Health Care",
     "url": "/market-activity/stocks/mbot"
   },
@@ -31747,7 +31747,7 @@
     "marketCap": "85879945825.00",
     "country": "Argentina",
     "ipoyear": "2007",
-    "industry": "Business Services",
+    "industry": "Catalog/Specialty Distribution",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/meli"
   },
@@ -31761,8 +31761,8 @@
     "marketCap": "3401720596.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "",
-    "sector": "",
+    "industry": "Major Chemicals",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/meoh"
   },
   {
@@ -32881,8 +32881,8 @@
     "marketCap": "43535019.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "",
-    "sector": "",
+    "industry": "Finance: Consumer Services",
+    "sector": "Finance",
     "url": "/market-activity/stocks/mogo"
   },
   {
@@ -33525,7 +33525,7 @@
     "marketCap": "7953917.00",
     "country": "United States",
     "ipoyear": "2005",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
     "sector": "Health Care",
     "url": "/market-activity/stocks/mtem"
   },
@@ -33694,7 +33694,7 @@
     "country": "United States",
     "ipoyear": "2019",
     "industry": "Industrial Machinery/Components",
-    "sector": "Miscellaneous",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/mvst"
   },
   {
@@ -33708,7 +33708,7 @@
     "country": "United States",
     "ipoyear": "2019",
     "industry": "Industrial Machinery/Components",
-    "sector": "Miscellaneous",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/mvstw"
   },
   {
@@ -33861,7 +33861,7 @@
     "marketCap": "2654161.00",
     "country": "Israel",
     "ipoyear": "",
-    "industry": "Retail: Computer Software & Peripheral Equipment",
+    "industry": "Computer Software: Prepackaged Software",
     "sector": "Technology",
     "url": "/market-activity/stocks/mysz"
   },
@@ -34015,7 +34015,7 @@
     "marketCap": "1731047115.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Finance: Consumer Services",
+    "industry": "Investment Bankers/Brokers/Service",
     "sector": "Finance",
     "url": "/market-activity/stocks/navi"
   },
@@ -34295,8 +34295,8 @@
     "marketCap": "31196026.00",
     "country": "China",
     "ipoyear": "2004",
-    "industry": "Business Services",
-    "sector": "Consumer Discretionary",
+    "industry": "Finance: Consumer Services",
+    "sector": "Finance",
     "url": "/market-activity/stocks/ncty"
   },
   {
@@ -34673,8 +34673,8 @@
     "marketCap": "84648282.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Consumer Specialties",
-    "sector": "Consumer Discretionary",
+    "industry": "Diversified Commercial Services",
+    "sector": "Miscellaneous",
     "url": "/market-activity/stocks/nhtc"
   },
   {
@@ -35177,8 +35177,8 @@
     "marketCap": "5788969160.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "",
-    "sector": "",
+    "industry": "Industrial Machinery/Components",
+    "sector": "Miscellaneous",
     "url": "/market-activity/stocks/novt"
   },
   {
@@ -35527,7 +35527,7 @@
     "marketCap": "16511765038.00",
     "country": "United States",
     "ipoyear": "2016",
-    "industry": "EDP Services",
+    "industry": "Computer Software: Prepackaged Software",
     "sector": "Technology",
     "url": "/market-activity/stocks/ntnx"
   },
@@ -35555,7 +35555,7 @@
     "marketCap": "36858763.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Industrial Specialties",
     "sector": "Health Care",
     "url": "/market-activity/stocks/ntrb"
   },
@@ -35583,8 +35583,8 @@
     "marketCap": "2256796.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Miscellaneous manufacturing industries",
-    "sector": "Consumer Discretionary",
+    "industry": "EDP Services",
+    "sector": "Technology",
     "url": "/market-activity/stocks/ntrp"
   },
   {
@@ -35877,8 +35877,8 @@
     "marketCap": "4484201702.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "",
-    "sector": "",
+    "industry": "Business Services",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/nvei"
   },
   {
@@ -35947,8 +35947,8 @@
     "marketCap": "11070678.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Industrial Machinery/Components",
-    "sector": "Industrials",
+    "industry": "Assisted Living Services",
+    "sector": "Health Care",
     "url": "/market-activity/stocks/nvos"
   },
   {
@@ -36689,7 +36689,7 @@
     "marketCap": "409147170.00",
     "country": "United States",
     "ipoyear": "2014",
-    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/ocgn"
   },
@@ -36927,7 +36927,7 @@
     "marketCap": "181278122.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Pharmaceuticals and Biotechnology",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/ogi"
   },
@@ -37249,7 +37249,7 @@
     "marketCap": "88241129.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Pharmaceuticals and Biotechnology",
     "sector": "Health Care",
     "url": "/market-activity/stocks/oncy"
   },
@@ -37473,8 +37473,8 @@
     "marketCap": "106762373.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Real Estate Investment Trusts",
-    "sector": "Real Estate",
+    "industry": "Real Estate",
+    "sector": "Finance",
     "url": "/market-activity/stocks/opi"
   },
   {
@@ -37501,7 +37501,7 @@
     "marketCap": "892149347.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Biotechnology: In Vitro & In Vivo Diagnostic Substances",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/opk"
   },
@@ -37851,8 +37851,8 @@
     "marketCap": "8256551941.00",
     "country": "Canada",
     "ipoyear": "1996",
-    "industry": "",
-    "sector": "",
+    "industry": "EDP Services",
+    "sector": "Technology",
     "url": "/market-activity/stocks/otex"
   },
   {
@@ -38187,7 +38187,7 @@
     "marketCap": "3638859530.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Natural Gas Distribution",
+    "industry": "Oil & Gas Production",
     "sector": "Energy",
     "url": "/market-activity/stocks/pagp"
   },
@@ -38229,7 +38229,7 @@
     "marketCap": "5712901.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/pali"
   },
@@ -38243,8 +38243,8 @@
     "marketCap": "28588687.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Business Services",
-    "sector": "Consumer Discretionary",
+    "industry": "EDP Services",
+    "sector": "Technology",
     "url": "/market-activity/stocks/palt"
   },
   {
@@ -38256,7 +38256,7 @@
     "volume": "248110",
     "marketCap": "352745271.00",
     "country": "United States",
-    "ipoyear": "1996",
+    "ipoyear": "2013",
     "industry": "Marine Transportation",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/panl"
@@ -38313,7 +38313,7 @@
     "marketCap": "81730230.00",
     "country": "United States",
     "ipoyear": "2020",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
     "sector": "Health Care",
     "url": "/market-activity/stocks/pasg"
   },
@@ -38701,7 +38701,7 @@
     "lastsale": "$136.27",
     "netchange": "-0.11",
     "pctchange": "-0.081%",
-    "volume": "4227309",
+    "volume": "4227359",
     "marketCap": "187490184684.00",
     "country": "China",
     "ipoyear": "2018",
@@ -38733,7 +38733,7 @@
     "marketCap": "1322970574.00",
     "country": "United States",
     "ipoyear": "2001",
-    "industry": "Computer Software: Prepackaged Software",
+    "industry": "EDP Services",
     "sector": "Technology",
     "url": "/market-activity/stocks/pdfs"
   },
@@ -38887,8 +38887,8 @@
     "marketCap": "3883073.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Telecommunications Equipment",
-    "sector": "Utilities",
+    "industry": "Metal Fabrications",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/pegy"
   },
   {
@@ -38958,7 +38958,7 @@
     "country": "United States",
     "ipoyear": "",
     "industry": "Environmental Services",
-    "sector": "Utilities",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/pesi"
   },
   {
@@ -38985,7 +38985,7 @@
     "marketCap": "542713504.00",
     "country": "United States",
     "ipoyear": "2017",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Other Pharmaceuticals",
     "sector": "Health Care",
     "url": "/market-activity/stocks/petq"
   },
@@ -39489,7 +39489,7 @@
     "marketCap": "2166498486.00",
     "country": "United States",
     "ipoyear": "2014",
-    "industry": "Restaurants",
+    "industry": "Movies/Entertainment",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/play"
   },
@@ -39965,7 +39965,7 @@
     "marketCap": "6622450.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Medical/Dental Instruments",
+    "industry": "Industrial Specialties",
     "sector": "Health Care",
     "url": "/market-activity/stocks/poai"
   },
@@ -40274,7 +40274,7 @@
     "country": "United States",
     "ipoyear": "",
     "industry": "Other Consumer Services",
-    "sector": "Real Estate",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/prdo"
   },
   {
@@ -40413,8 +40413,8 @@
     "marketCap": "188835389.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "",
-    "sector": "",
+    "industry": "Medical/Dental Instruments",
+    "sector": "Health Care",
     "url": "/market-activity/stocks/prof"
   },
   {
@@ -40609,8 +40609,8 @@
     "marketCap": "275886298.00",
     "country": "United States",
     "ipoyear": "2016",
-    "industry": "EDP Services",
-    "sector": "Technology",
+    "industry": "Business Services",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/prth"
   },
   {
@@ -40889,7 +40889,7 @@
     "marketCap": "185191888.00",
     "country": "United States",
     "ipoyear": "2006",
-    "industry": "Finance: Consumer Services",
+    "industry": "Finance/Investors Services",
     "sector": "Finance",
     "url": "/market-activity/stocks/ptmn"
   },
@@ -41281,7 +41281,7 @@
     "marketCap": "203201280000.00",
     "country": "United States",
     "ipoyear": "1991",
-    "industry": "Computer peripheral equipment",
+    "industry": "Radio And Television Broadcasting And Communications Equipment",
     "sector": "Technology",
     "url": "/market-activity/stocks/qcom"
   },
@@ -41407,8 +41407,8 @@
     "marketCap": "169672958.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "",
-    "sector": "",
+    "industry": "Misc Health and Biotechnology Services",
+    "sector": "Health Care",
     "url": "/market-activity/stocks/qipt"
   },
   {
@@ -41449,7 +41449,7 @@
     "marketCap": "5552340471.00",
     "country": "United States",
     "ipoyear": "2012",
-    "industry": "Computer Software: Prepackaged Software",
+    "industry": "EDP Services",
     "sector": "Technology",
     "url": "/market-activity/stocks/qlys"
   },
@@ -41505,7 +41505,7 @@
     "marketCap": "1013827627.00",
     "country": "United States",
     "ipoyear": "2010",
-    "industry": "Advertising",
+    "industry": "Business Services",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/qnst"
   },
@@ -41687,7 +41687,7 @@
     "marketCap": "68298972.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Computer Manufacturing",
+    "industry": "Computer Software: Prepackaged Software",
     "sector": "Technology",
     "url": "/market-activity/stocks/qubt"
   },
@@ -41799,7 +41799,7 @@
     "marketCap": "26985147.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Restaurants",
+    "industry": "Food Distributors",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/rave"
   },
@@ -41869,7 +41869,7 @@
     "marketCap": "86366335.00",
     "country": "United States",
     "ipoyear": "2019",
-    "industry": "Major Banks",
+    "industry": "Banks",
     "sector": "Finance",
     "url": "/market-activity/stocks/rbkb"
   },
@@ -42499,8 +42499,8 @@
     "marketCap": "6169645955.00",
     "country": "United States",
     "ipoyear": "2020",
-    "industry": "Office Equipment/Supplies/Services",
-    "sector": "Industrials",
+    "industry": "Containers/Packaging",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/reyn"
   },
   {
@@ -42975,8 +42975,8 @@
     "marketCap": "125609523.00",
     "country": "United States",
     "ipoyear": "2019",
-    "industry": "Major Banks",
-    "sector": "Finance",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/rmbi"
   },
   {
@@ -43213,8 +43213,8 @@
     "marketCap": "2263900865.00",
     "country": "United States",
     "ipoyear": "1993",
-    "industry": "Steel/Iron Ore",
-    "sector": "Industrials",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/rock"
   },
   {
@@ -43549,8 +43549,8 @@
     "marketCap": "116971491.00",
     "country": "China",
     "ipoyear": "2006",
-    "industry": "Specialty Chemicals",
-    "sector": "Industrials",
+    "industry": "Computer Software: Prepackaged Software",
+    "sector": "Technology",
     "url": "/market-activity/stocks/rtc"
   },
   {
@@ -43605,7 +43605,7 @@
     "marketCap": "3666656547.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Other Specialty Stores",
+    "industry": "Retail-Auto Dealers and Gas Stations",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/rusha"
   },
@@ -43619,7 +43619,7 @@
     "marketCap": "3399523328.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Retail-Auto Dealers and Gas Stations",
+    "industry": "Other Specialty Stores",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/rushb"
   },
@@ -43703,7 +43703,7 @@
     "marketCap": "88666381.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Major Banks",
+    "industry": "Savings Institutions",
     "sector": "Finance",
     "url": "/market-activity/stocks/rvsb"
   },
@@ -43745,8 +43745,8 @@
     "marketCap": "8334401.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "EDP Services",
-    "sector": "Technology",
+    "industry": "Professional Services",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/rvyl"
   },
   {
@@ -44095,8 +44095,8 @@
     "marketCap": "144966251.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Computer Software: Programming Data Processing",
-    "sector": "Technology",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/sang"
   },
   {
@@ -44165,8 +44165,8 @@
     "marketCap": "4157008633.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Telecommunications Equipment",
-    "sector": "Consumer Discretionary",
+    "industry": "Radio And Television Broadcasting And Communications Equipment",
+    "sector": "Technology",
     "url": "/market-activity/stocks/sats"
   },
   {
@@ -44991,8 +44991,8 @@
     "marketCap": "6102586.00",
     "country": "United States",
     "ipoyear": "2017",
-    "industry": "RETAIL: Building Materials",
-    "sector": "Consumer Discretionary",
+    "industry": "Metal Fabrications",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/sgbx"
   },
   {
@@ -45089,8 +45089,8 @@
     "marketCap": "1892261955.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Industrial Machinery/Components",
-    "sector": "Industrials",
+    "industry": "Metal Mining",
+    "sector": "Basic Materials",
     "url": "/market-activity/stocks/sgml"
   },
   {
@@ -45537,8 +45537,8 @@
     "marketCap": "109342278.00",
     "country": "Israel",
     "ipoyear": "",
-    "industry": "Computer Manufacturing",
-    "sector": "Technology",
+    "industry": "Computer Communications Equipment",
+    "sector": "Telecommunications",
     "url": "/market-activity/stocks/silc"
   },
   {
@@ -45939,7 +45939,7 @@
     "lastsale": "$0.051",
     "netchange": "-0.001",
     "pctchange": "-1.923%",
-    "volume": "5343172",
+    "volume": "5373172",
     "marketCap": "5935496.00",
     "country": "United Kingdom",
     "ipoyear": "",
@@ -46086,6 +46086,20 @@
     "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/sls"
+  },
+  {
+    "symbol": "SLVO",
+    "name": "Credit Suisse X-Links Silver Shares Covered Call ETNs due April 21 2033",
+    "lastsale": "$80.35",
+    "netchange": "0.02",
+    "pctchange": "0.025%",
+    "volume": "5893",
+    "marketCap": "0.00",
+    "country": "Switzerland",
+    "ipoyear": "",
+    "industry": "Blank Checks",
+    "sector": "Finance",
+    "url": "/market-activity/stocks/slvo"
   },
   {
     "symbol": "SMBC",
@@ -46489,7 +46503,7 @@
     "marketCap": "84922597660.00",
     "country": "United States",
     "ipoyear": "1992",
-    "industry": "Computer Software: Prepackaged Software",
+    "industry": "EDP Services",
     "sector": "Technology",
     "url": "/market-activity/stocks/snps"
   },
@@ -46798,7 +46812,7 @@
     "country": "United States",
     "ipoyear": "",
     "industry": "Industrial Machinery/Components",
-    "sector": "Technology",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/sotk"
   },
   {
@@ -47063,7 +47077,7 @@
     "marketCap": "1594937262.00",
     "country": "United States",
     "ipoyear": "2019",
-    "industry": "EDP Services",
+    "industry": "Computer Software: Prepackaged Software",
     "sector": "Technology",
     "url": "/market-activity/stocks/spt"
   },
@@ -47259,7 +47273,7 @@
     "marketCap": "1064716768.00",
     "country": "United States",
     "ipoyear": "2018",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
     "sector": "Health Care",
     "url": "/market-activity/stocks/srrk"
   },
@@ -47413,8 +47427,8 @@
     "marketCap": "1058885135.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "",
-    "sector": "",
+    "industry": "Precious Metals",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/ssrm"
   },
   {
@@ -47539,7 +47553,7 @@
     "marketCap": "78884167.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Business Services",
+    "industry": "Advertising",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/stcn"
   },
@@ -48267,7 +48281,7 @@
     "marketCap": "3029393918.00",
     "country": "United States",
     "ipoyear": "2019",
-    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/swtx"
   },
@@ -48491,8 +48505,8 @@
     "marketCap": "1455033.00",
     "country": "Canada",
     "ipoyear": "2020",
-    "industry": "Metal Fabrications",
-    "sector": "Industrials",
+    "industry": "Telecommunications Equipment",
+    "sector": "Telecommunications",
     "url": "/market-activity/stocks/syta"
   },
   {
@@ -48561,8 +48575,8 @@
     "marketCap": "1241424.00",
     "country": "China",
     "ipoyear": "2015",
-    "industry": "Major Chemicals",
-    "sector": "Industrials",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/tanh"
   },
   {
@@ -48981,7 +48995,7 @@
     "marketCap": "34636810344.00",
     "country": "China",
     "ipoyear": "2003",
-    "industry": "Business Services",
+    "industry": "Hotels/Resorts",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/tcom"
   },
@@ -49163,7 +49177,7 @@
     "marketCap": "5319335393.00",
     "country": "United States",
     "ipoyear": "2018",
-    "industry": "EDP Services",
+    "industry": "Computer Software: Prepackaged Software",
     "sector": "Technology",
     "url": "/market-activity/stocks/tenb"
   },
@@ -49401,8 +49415,8 @@
     "marketCap": "1160208037.00",
     "country": "United States",
     "ipoyear": "2018",
-    "industry": "Oil & Gas Production",
-    "sector": "Energy",
+    "industry": "Hotels/Resorts",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/th"
   },
   {
@@ -49597,7 +49611,7 @@
     "marketCap": "633075099.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Accident &Health Insurance",
+    "industry": "Property-Casualty Insurers",
     "sector": "Finance",
     "url": "/market-activity/stocks/tipt"
   },
@@ -49737,7 +49751,7 @@
     "marketCap": "1433459536.00",
     "country": "United States",
     "ipoyear": "2018",
-    "industry": " Medicinal Chemicals and Botanical Products ",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/tlry"
   },
@@ -49807,8 +49821,8 @@
     "marketCap": "464644822.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "",
-    "sector": "",
+    "industry": "Metal Mining",
+    "sector": "Basic Materials",
     "url": "/market-activity/stocks/tmc"
   },
   {
@@ -49835,8 +49849,8 @@
     "marketCap": "52288455.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Metal Mining",
-    "sector": "Basic Materials",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/tmcww"
   },
   {
@@ -50185,7 +50199,7 @@
     "marketCap": "615601173.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Finance/Investors Services",
+    "industry": "Finance: Consumer Services",
     "sector": "Finance",
     "url": "/market-activity/stocks/tree"
   },
@@ -51800,6 +51814,20 @@
     "url": "/market-activity/stocks/uslm"
   },
   {
+    "symbol": "USOI",
+    "name": "Credit Suisse AG Credit Suisse X-Links Crude Oil Shares Covered Call ETN",
+    "lastsale": "$72.65",
+    "netchange": "-0.95",
+    "pctchange": "-1.291%",
+    "volume": "33905",
+    "marketCap": "0.00",
+    "country": "Switzerland",
+    "ipoyear": "",
+    "industry": "Investment Bankers/Brokers/Service",
+    "sector": "Finance",
+    "url": "/market-activity/stocks/usoi"
+  },
+  {
     "symbol": "UTHR",
     "name": "United Therapeutics Corporation Common Stock",
     "lastsale": "$264.27",
@@ -51963,8 +51991,8 @@
     "marketCap": "251335624.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Commercial Banks",
-    "sector": "Finance",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/vbnk"
   },
   {
@@ -52089,7 +52117,7 @@
     "marketCap": "2152797533.00",
     "country": "United States",
     "ipoyear": "1994",
-    "industry": "Semiconductors",
+    "industry": "Industrial Machinery/Components",
     "sector": "Technology",
     "url": "/market-activity/stocks/veco"
   },
@@ -52243,8 +52271,8 @@
     "marketCap": "35392472.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Auto Manufacturing",
-    "sector": "Consumer Discretionary",
+    "industry": "Building Materials",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/vev"
   },
   {
@@ -52411,8 +52439,8 @@
     "marketCap": "4443806.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Homebuilding",
-    "sector": "Real Estate",
+    "industry": "Real Estate",
+    "sector": "Finance",
     "url": "/market-activity/stocks/vino"
   },
   {
@@ -52453,7 +52481,7 @@
     "marketCap": "1284393939.00",
     "country": "United States",
     "ipoyear": "2019",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
     "sector": "Health Care",
     "url": "/market-activity/stocks/vir"
   },
@@ -52677,8 +52705,8 @@
     "marketCap": "276916164.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "",
-    "sector": "",
+    "industry": "Misc Health and Biotechnology Services",
+    "sector": "Health Care",
     "url": "/market-activity/stocks/vmd"
   },
   {
@@ -52719,7 +52747,7 @@
     "marketCap": "494185922.00",
     "country": "China",
     "ipoyear": "2011",
-    "industry": "Computer Software: Programming Data Processing",
+    "industry": "EDP Services",
     "sector": "Technology",
     "url": "/market-activity/stocks/vnet"
   },
@@ -52887,7 +52915,7 @@
     "marketCap": "22255483.00",
     "country": "United States",
     "ipoyear": "2020",
-    "industry": "Other Specialty Stores",
+    "industry": "Retail-Auto Dealers and Gas Stations",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/vrm"
   },
@@ -52999,8 +53027,8 @@
     "marketCap": "35427688099.00",
     "country": "United States",
     "ipoyear": "2009",
-    "industry": "Business Services",
-    "sector": "Consumer Discretionary",
+    "industry": "EDP Services",
+    "sector": "Technology",
     "url": "/market-activity/stocks/vrsk"
   },
   {
@@ -53349,7 +53377,7 @@
     "marketCap": "458297292.00",
     "country": "United States",
     "ipoyear": "2015",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
     "sector": "Health Care",
     "url": "/market-activity/stocks/vygr"
   },
@@ -54679,8 +54707,8 @@
     "marketCap": "15149535.00",
     "country": "United States",
     "ipoyear": "2015",
-    "industry": "Retail: Computer Software & Peripheral Equipment",
-    "sector": "Technology",
+    "industry": "Business Services",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/xela"
   },
   {
@@ -54693,8 +54721,8 @@
     "marketCap": "11266671.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Business Services",
-    "sector": "Consumer Discretionary",
+    "industry": "Retail: Computer Software & Peripheral Equipment",
+    "sector": "Technology",
     "url": "/market-activity/stocks/xelap"
   },
   {
@@ -54987,7 +55015,7 @@
     "marketCap": "7304384.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Pharmaceuticals and Biotechnology",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/xrtx"
   },
@@ -55113,8 +55141,8 @@
     "marketCap": "27834396.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Diversified Commercial Services",
-    "sector": "Miscellaneous",
+    "industry": "Specialty Chemicals",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/yhgj"
   },
   {
@@ -55449,8 +55477,8 @@
     "marketCap": "2449619316.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Telecommunications Equipment",
-    "sector": "Telecommunications",
+    "industry": "Advertising",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/zd"
   },
   {
@@ -55785,8 +55813,8 @@
     "marketCap": "118967101.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Major Chemicals",
-    "sector": "Industrials",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/ztek"
   },
   {

@@ -177,8 +177,8 @@
     "marketCap": "58800234.00",
     "country": "Canada",
     "ipoyear": "2000",
-    "industry": "Industrial Specialties",
-    "sector": "Health Care",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/apt"
   },
   {
@@ -569,8 +569,8 @@
     "marketCap": "20508414.00",
     "country": "",
     "ipoyear": "2018",
-    "industry": "Major Banks",
-    "sector": "Finance",
+    "industry": "EDP Services",
+    "sector": "Technology",
     "url": "/market-activity/stocks/bmtx"
   },
   {
@@ -625,8 +625,8 @@
     "marketCap": "3609168639.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "",
-    "sector": "",
+    "industry": "Precious Metals",
+    "sector": "Basic Materials",
     "url": "/market-activity/stocks/btg"
   },
   {
@@ -737,7 +737,7 @@
     "marketCap": "73993209.00",
     "country": "United States",
     "ipoyear": "1999",
-    "industry": "Investment Managers",
+    "industry": "Investment Bankers/Brokers/Service",
     "sector": "Finance",
     "url": "/market-activity/stocks/cev"
   },
@@ -863,8 +863,8 @@
     "marketCap": "183350032.00",
     "country": "United States",
     "ipoyear": "1996",
-    "industry": "Plastic Products",
-    "sector": "Industrials",
+    "industry": "Electronic Components",
+    "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/cmt"
   },
   {
@@ -957,7 +957,7 @@
     "lastsale": "$1.42",
     "netchange": "-0.09",
     "pctchange": "-5.96%",
-    "volume": "397659",
+    "volume": "397669",
     "marketCap": "71148008.00",
     "country": "United States",
     "ipoyear": "1997",
@@ -1003,7 +1003,7 @@
     "marketCap": "275388529.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Pharmaceuticals and Biotechnology",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/cybn"
   },
@@ -1115,8 +1115,8 @@
     "marketCap": "1844362488.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "",
-    "sector": "",
+    "industry": "Other Metals and Minerals",
+    "sector": "Basic Materials",
     "url": "/market-activity/stocks/dnn"
   },
   {
@@ -1605,8 +1605,8 @@
     "marketCap": "400421892.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "",
-    "sector": "",
+    "industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/gau"
   },
   {
@@ -2025,8 +2025,8 @@
     "marketCap": "37428200690.00",
     "country": "Canada",
     "ipoyear": "1929",
-    "industry": "Integrated oil Companies",
-    "sector": "Energy",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/imo"
   },
   {
@@ -2067,7 +2067,7 @@
     "marketCap": "29186141.00",
     "country": "",
     "ipoyear": "2022",
-    "industry": "EDP Services",
+    "industry": "Computer Software: Prepackaged Software",
     "sector": "Technology",
     "url": "/market-activity/stocks/inlx"
   },
@@ -2347,8 +2347,8 @@
     "marketCap": "1307447385.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Precious Metals",
-    "sector": "Basic Materials",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/mag"
   },
   {
@@ -2375,7 +2375,7 @@
     "marketCap": "47260151.00",
     "country": "",
     "ipoyear": "2022",
-    "industry": "Finance: Consumer Services",
+    "industry": "Finance/Investors Services",
     "sector": "Finance",
     "url": "/market-activity/stocks/mgld"
   },
@@ -2403,7 +2403,7 @@
     "marketCap": "21351955.00",
     "country": "",
     "ipoyear": "2023",
-    "industry": "Catalog/Specialty Distribution",
+    "industry": "Other Specialty Stores",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/mi"
   },
@@ -2599,8 +2599,8 @@
     "marketCap": "149438289.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "",
-    "sector": "",
+    "industry": "Precious Metals",
+    "sector": "Basic Materials",
     "url": "/market-activity/stocks/nak"
   },
   {
@@ -2655,8 +2655,8 @@
     "marketCap": "200071316.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Real Estate",
-    "sector": "Finance",
+    "industry": "Building operators",
+    "sector": "Real Estate",
     "url": "/market-activity/stocks/nen"
   },
   {
@@ -2669,8 +2669,8 @@
     "marketCap": "364671730.00",
     "country": "",
     "ipoyear": "2021",
-    "industry": "Precious Metals",
-    "sector": "Basic Materials",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/newp"
   },
   {
@@ -2683,8 +2683,8 @@
     "marketCap": "667136653.00",
     "country": "",
     "ipoyear": "2021",
-    "industry": "",
-    "sector": "",
+    "industry": "Precious Metals",
+    "sector": "Basic Materials",
     "url": "/market-activity/stocks/nfgc"
   },
   {
@@ -2823,8 +2823,8 @@
     "marketCap": "601421526.00",
     "country": "Canada",
     "ipoyear": "2022",
-    "industry": "",
-    "sector": "",
+    "industry": "Oil & Gas Production",
+    "sector": "Energy",
     "url": "/market-activity/stocks/obe"
   },
   {
@@ -2851,8 +2851,8 @@
     "marketCap": "11238615.00",
     "country": "United States",
     "ipoyear": "2007",
-    "industry": "Electric Utilities: Central",
-    "sector": "Utilities",
+    "industry": "Industrial Machinery/Components",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/optt"
   },
   {
@@ -2865,8 +2865,8 @@
     "marketCap": "1226241900.00",
     "country": "",
     "ipoyear": "2020",
-    "industry": "",
-    "sector": "",
+    "industry": "Precious Metals",
+    "sector": "Basic Materials",
     "url": "/market-activity/stocks/orla"
   },
   {
@@ -3033,7 +3033,7 @@
     "marketCap": "19581039.00",
     "country": "",
     "ipoyear": "2019",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
     "sector": "Health Care",
     "url": "/market-activity/stocks/phge"
   },
@@ -3509,8 +3509,8 @@
     "marketCap": "15440570.00",
     "country": "",
     "ipoyear": "2023",
-    "industry": "Industrial Machinery/Components",
-    "sector": "Consumer Discretionary",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/sge"
   },
   {
@@ -3537,7 +3537,7 @@
     "marketCap": "19403959.00",
     "country": "United States",
     "ipoyear": "1969",
-    "industry": "Office Equipment/Supplies/Services",
+    "industry": "Aerospace",
     "sector": "Industrials",
     "url": "/market-activity/stocks/sif"
   },
@@ -3593,8 +3593,8 @@
     "marketCap": "307676911.00",
     "country": "Canada",
     "ipoyear": "2021",
-    "industry": "Major Chemicals",
-    "sector": "Industrials",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/sli"
   },
   {
@@ -3761,8 +3761,8 @@
     "marketCap": "743320571.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "Precious Metals",
-    "sector": "Basic Materials",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/tgb"
   },
   {
@@ -3915,8 +3915,8 @@
     "marketCap": "23154938.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "",
-    "sector": "",
+    "industry": "Metal Fabrications",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/uamy"
   },
   {
@@ -4027,8 +4027,8 @@
     "marketCap": "994506080.00",
     "country": "Canada",
     "ipoyear": "",
-    "industry": "",
-    "sector": "",
+    "industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
+    "sector": "Industrials",
     "url": "/market-activity/stocks/uuuu"
   },
   {
@@ -4111,7 +4111,7 @@
     "marketCap": "68034738.00",
     "country": "Singapore",
     "ipoyear": "2015",
-    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "industry": "Biotechnology: In Vitro & In Vivo Diagnostic Substances",
     "sector": "Health Care",
     "url": "/market-activity/stocks/vnrx"
   },
@@ -4153,8 +4153,8 @@
     "marketCap": "237423696.00",
     "country": "Canada",
     "ipoyear": "2011",
-    "industry": "Metal Mining",
-    "sector": "Basic Materials",
+    "industry": "",
+    "sector": "",
     "url": "/market-activity/stocks/wrn"
   },
   {
@@ -4167,7 +4167,7 @@
     "marketCap": "26709767.00",
     "country": "United States",
     "ipoyear": "",
-    "industry": "Metal Mining",
+    "industry": "Other Metals and Minerals",
     "sector": "Basic Materials",
     "url": "/market-activity/stocks/wwr"
   },
