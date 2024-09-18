@@ -1,4 +1,3 @@
-AAMC
 ACU
 ADRT
 AE
@@ -116,6 +115,8 @@ GLDG
 GLO
 GLQ
 GLU
+GLU
+A
 GLU
 B
 GLV
