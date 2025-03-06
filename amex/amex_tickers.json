@@ -109,7 +109,7 @@
   "GLO",
   "GLQ",
   "GLU",
-  "GLU^B",
+  "GLU^A",
   "GLV",
   "GNS",
   "GORO",
@@ -144,6 +144,7 @@
   "ITRG",
   "JOB",
   "KAPA",
+  "KNW",
   "KULR",
   "LCTX",
   "LEGT",
@@ -288,6 +289,5 @@
   "YCBD",
   "YCBD^A",
   "ZDGE",
-  "ZOM",
   "ZONE"
 ]
