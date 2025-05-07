@@ -138,6 +138,7 @@
   "INTT",
   "INUV",
   "IOR",
+  "ISOU",
   "ITP",
   "ITRG",
   "JOB",
@@ -204,6 +205,7 @@
   "PCG^C",
   "PCG^D",
   "PCG^E",
+  "PCG^G",
   "PCG^H",
   "PCG^I",
   "PED",
@@ -252,6 +254,7 @@
   "SVT",
   "SYNX",
   "TGB",
+  "TGEN",
   "THM",
   "TIC",
   "TMDE",
@@ -286,7 +289,6 @@
   "XPL",
   "XTNT",
   "YCBD",
-  "YCBD^A",
   "ZDGE",
   "ZONE"
 ]
