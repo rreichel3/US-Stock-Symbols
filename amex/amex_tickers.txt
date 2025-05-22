@@ -111,8 +111,6 @@ GLO
 GLQ
 GLU
 GLU
-A
-GLU
 B
 GLV
 GNS
@@ -214,8 +212,6 @@ PCG
 C
 PCG
 D
-PCG
-E
 PCG
 G
 PCG
