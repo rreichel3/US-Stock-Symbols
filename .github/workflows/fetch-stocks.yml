@@ -131,6 +131,69 @@ jobs:
           fi
           echo "=================================="
       
+      # Fetch and merge general screener data
+      - name: Fetch general screener stock data
+        run: |
+          curl --fail --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' \
+            'https://api.nasdaq.com/api/screener/stocks?tableonly=false&limit=25&offset=0&download=true' \
+            -o /tmp/screener.json
+      
+      - name: Extract and merge screener data into exchange lists
+        run: |
+          # Extract NYSE and NASDAQ tickers from screener data
+          cat /tmp/screener.json | jq -r '.data.rows[] | select(.exchange == "NYSE") | .symbol' > /tmp/screener_nyse.txt
+          cat /tmp/screener.json | jq -r '.data.rows[] | select(.exchange == "NASDAQ") | .symbol' > /tmp/screener_nasdaq.txt
+          
+          # Create combined list of existing tickers for logging
+          cat $GITHUB_WORKSPACE/amex/amex_tickers.txt $GITHUB_WORKSPACE/nyse/nyse_tickers.txt $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt | sort -u > /tmp/existing_tickers_screener.txt
+          
+          # Find new tickers from screener data
+          cat /tmp/screener_nyse.txt /tmp/screener_nasdaq.txt | sort -u > /tmp/all_screener_tickers.txt
+          comm -23 <(sort /tmp/all_screener_tickers.txt) <(sort /tmp/existing_tickers_screener.txt) > /tmp/new_screener_tickers.txt
+          
+          # Log the results
+          NEW_COUNT=$(wc -l < /tmp/new_screener_tickers.txt)
+          TOTAL_SCREENER=$(wc -l < /tmp/all_screener_tickers.txt)
+          NYSE_ADDED=$(comm -23 <(sort /tmp/screener_nyse.txt) <(sort $GITHUB_WORKSPACE/nyse/nyse_tickers.txt) | wc -l)
+          NASDAQ_ADDED=$(comm -23 <(sort /tmp/screener_nasdaq.txt) <(sort $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt) | wc -l)
+          
+          echo "=== General Screener Ticker Analysis ==="
+          echo "Total screener tickers fetched: $TOTAL_SCREENER"
+          echo "New tickers not in existing exchanges: $NEW_COUNT"
+          echo "NYSE tickers to be added: $NYSE_ADDED"
+          echo "NASDAQ tickers to be added: $NASDAQ_ADDED"
+          
+          if [ $NEW_COUNT -gt 0 ]; then
+            echo "New tickers being added:"
+            cat /tmp/new_screener_tickers.txt | head -20
+            if [ $NEW_COUNT -gt 20 ]; then
+              echo "... and $(($NEW_COUNT - 20)) more"
+            fi
+            
+            # Merge screener tickers into respective exchange files
+            cat $GITHUB_WORKSPACE/nyse/nyse_tickers.txt /tmp/screener_nyse.txt | sort -u > /tmp/nyse_screener_merged.txt
+            cat $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt /tmp/screener_nasdaq.txt | sort -u > /tmp/nasdaq_screener_merged.txt
+            
+            mv /tmp/nyse_screener_merged.txt $GITHUB_WORKSPACE/nyse/nyse_tickers.txt
+            mv /tmp/nasdaq_screener_merged.txt $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt
+            
+            # Add screener ticker objects to full JSON files
+            cat /tmp/screener.json | jq --argjson new_tickers "$(cat /tmp/new_screener_tickers.txt | jq -R -s 'split("\n")[:-1]')" '.data.rows | map(select(.symbol | IN($new_tickers[])))' > /tmp/new_screener_objects.json
+            
+            jq -s '.[0] + .[1] | unique_by(.symbol)' $GITHUB_WORKSPACE/nyse/nyse_full_tickers.json /tmp/new_screener_objects.json > /tmp/nyse_screener_full_merged.json
+            jq -s '.[0] + .[1] | unique_by(.symbol)' $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json /tmp/new_screener_objects.json > /tmp/nasdaq_screener_full_merged.json
+            
+            mv /tmp/nyse_screener_full_merged.json $GITHUB_WORKSPACE/nyse/nyse_full_tickers.json
+            mv /tmp/nasdaq_screener_full_merged.json $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json
+            
+            # Update JSON arrays
+            cat $GITHUB_WORKSPACE/nyse/nyse_tickers.txt | jq -R -s -c 'split("\n")[:-1]' > $GITHUB_WORKSPACE/nyse/nyse_tickers.json
+            cat $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt | jq -R -s -c 'split("\n")[:-1]' > $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.json
+          else
+            echo "No new tickers found - all screener tickers already exist in exchange data"
+          fi
+          echo "=================================="
+      
       # Combine all exchange data
       - name: Create all tickers directory
         run: mkdir -p $GITHUB_WORKSPACE/all
