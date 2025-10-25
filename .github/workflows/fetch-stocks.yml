@@ -124,8 +124,8 @@ jobs:
             mv /tmp/nasdaq_full_merged.json $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json
             
             # Update JSON arrays
-            cat $GITHUB_WORKSPACE/nyse/nyse_tickers.txt | jq -R -s -c 'split("\n")[:-1]' > $GITHUB_WORKSPACE/nyse/nyse_tickers.json
-            cat $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt | jq -R -s -c 'split("\n")[:-1]' > $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.json
+            cat $GITHUB_WORKSPACE/nyse/nyse_tickers.txt | jq -R -s 'split("\n")[:-1]' > $GITHUB_WORKSPACE/nyse/nyse_tickers.json
+            cat $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt | jq -R -s 'split("\n")[:-1]' > $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.json
           else
             echo "No new tickers found - all market cap tickers already exist in exchange data"
           fi
@@ -187,8 +187,8 @@ jobs:
             mv /tmp/nasdaq_screener_full_merged.json $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json
             
             # Update JSON arrays
-            cat $GITHUB_WORKSPACE/nyse/nyse_tickers.txt | jq -R -s -c 'split("\n")[:-1]' > $GITHUB_WORKSPACE/nyse/nyse_tickers.json
-            cat $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt | jq -R -s -c 'split("\n")[:-1]' > $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.json
+            cat $GITHUB_WORKSPACE/nyse/nyse_tickers.txt | jq -R -s 'split("\n")[:-1]' > $GITHUB_WORKSPACE/nyse/nyse_tickers.json
+            cat $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt | jq -R -s 'split("\n")[:-1]' > $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.json
           else
             echo "No new tickers found - all screener tickers already exist in exchange data"
           fi
