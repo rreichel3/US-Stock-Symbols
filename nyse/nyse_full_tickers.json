@@ -392,6 +392,20 @@
     "url": "/market-activity/stocks/acr"
   },
   {
+    "symbol": "ACRE",
+    "name": "Ares Commercial Real Estate Corporation Common Stock",
+    "lastsale": "$4.69",
+    "netchange": "-0.01",
+    "pctchange": "-0.213%",
+    "volume": "376380",
+    "marketCap": "257975106.00",
+    "country": "United States",
+    "ipoyear": "2012",
+    "industry": "Real Estate Investment Trusts",
+    "sector": "Real Estate",
+    "url": "/market-activity/stocks/acre"
+  },
+  {
     "symbol": "ACR^C",
     "name": "ACRES Commercial Realty Corp. 8.625% Fixed-to-Floating Series C Cumulative Redeemable Preferred Stock ",
     "lastsale": "$25.0201",
@@ -418,20 +432,6 @@
     "industry": "",
     "sector": "",
     "url": "/market-activity/stocks/acr^d"
-  },
-  {
-    "symbol": "ACRE",
-    "name": "Ares Commercial Real Estate Corporation Common Stock",
-    "lastsale": "$4.69",
-    "netchange": "-0.01",
-    "pctchange": "-0.213%",
-    "volume": "376380",
-    "marketCap": "257975106.00",
-    "country": "United States",
-    "ipoyear": "2012",
-    "industry": "Real Estate Investment Trusts",
-    "sector": "Real Estate",
-    "url": "/market-activity/stocks/acre"
   },
   {
     "symbol": "ACV",
@@ -490,20 +490,6 @@
     "url": "/market-activity/stocks/adc"
   },
   {
-    "symbol": "ADC^A",
-    "name": "Agree Realty Corporation Depositary Shares each representing 1/1000th of a 4.250% Series A Cumulative Redeemable Preferred Stock",
-    "lastsale": "$17.81",
-    "netchange": "-0.12",
-    "pctchange": "-0.669%",
-    "volume": "17532",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/adc^a"
-  },
-  {
     "symbol": "ADCT",
     "name": "ADC Therapeutics SA Common Shares",
     "lastsale": "$4.07",
@@ -516,6 +502,20 @@
     "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/adct"
+  },
+  {
+    "symbol": "ADC^A",
+    "name": "Agree Realty Corporation Depositary Shares each representing 1/1000th of a 4.250% Series A Cumulative Redeemable Preferred Stock",
+    "lastsale": "$17.81",
+    "netchange": "-0.12",
+    "pctchange": "-0.669%",
+    "volume": "17532",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/adc^a"
   },
   {
     "symbol": "ADM",
@@ -1540,6 +1540,34 @@
     "url": "/market-activity/stocks/all"
   },
   {
+    "symbol": "ALLE",
+    "name": "Allegion plc Ordinary Shares",
+    "lastsale": "$171.22",
+    "netchange": "-4.28",
+    "pctchange": "-2.439%",
+    "volume": "1454695",
+    "marketCap": "14698641154.00",
+    "country": "United States",
+    "ipoyear": "2013",
+    "industry": "Diversified Commercial Services",
+    "sector": "Consumer Discretionary",
+    "url": "/market-activity/stocks/alle"
+  },
+  {
+    "symbol": "ALLY",
+    "name": "Ally Financial Inc. Common Stock",
+    "lastsale": "$41.02",
+    "netchange": "0.42",
+    "pctchange": "1.034%",
+    "volume": "2255806",
+    "marketCap": "12626285432.00",
+    "country": "United States",
+    "ipoyear": "2014",
+    "industry": "Major Banks",
+    "sector": "Finance",
+    "url": "/market-activity/stocks/ally"
+  },
+  {
     "symbol": "ALL^B",
     "name": "Allstate Corporation (The) 5.100% Fixed-to-Floating Rate Subordinated Debentures due 2053",
     "lastsale": "$26.12",
@@ -1594,34 +1622,6 @@
     "industry": "",
     "sector": "",
     "url": "/market-activity/stocks/all^j"
-  },
-  {
-    "symbol": "ALLE",
-    "name": "Allegion plc Ordinary Shares",
-    "lastsale": "$171.22",
-    "netchange": "-4.28",
-    "pctchange": "-2.439%",
-    "volume": "1454695",
-    "marketCap": "14698641154.00",
-    "country": "United States",
-    "ipoyear": "2013",
-    "industry": "Diversified Commercial Services",
-    "sector": "Consumer Discretionary",
-    "url": "/market-activity/stocks/alle"
-  },
-  {
-    "symbol": "ALLY",
-    "name": "Ally Financial Inc. Common Stock",
-    "lastsale": "$41.02",
-    "netchange": "0.42",
-    "pctchange": "1.034%",
-    "volume": "2255806",
-    "marketCap": "12626285432.00",
-    "country": "United States",
-    "ipoyear": "2014",
-    "industry": "Major Banks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/ally"
   },
   {
     "symbol": "ALSN",
@@ -2086,20 +2086,6 @@
     "url": "/market-activity/stocks/anf"
   },
   {
-    "symbol": "ANG^D",
-    "name": "American National Group Inc. Depositary Shares each representing a 1/1000th interest in a share of 7.375% Fixed-Rate Non-Cumulative Preferred Stock Series D",
-    "lastsale": "$25.60",
-    "netchange": "0.0522",
-    "pctchange": "0.204%",
-    "volume": "8713",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ang^d"
-  },
-  {
     "symbol": "ANGX",
     "name": "Angel Studios Inc. Class A Common Stock",
     "lastsale": "$6.93",
@@ -2112,6 +2098,20 @@
     "industry": "Movies/Entertainment",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/angx"
+  },
+  {
+    "symbol": "ANG^D",
+    "name": "American National Group Inc. Depositary Shares each representing a 1/1000th interest in a share of 7.375% Fixed-Rate Non-Cumulative Preferred Stock Series D",
+    "lastsale": "$25.60",
+    "netchange": "0.0522",
+    "pctchange": "0.204%",
+    "volume": "8713",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/ang^d"
   },
   {
     "symbol": "ANRO",
@@ -2338,20 +2338,6 @@
     "url": "/market-activity/stocks/apo"
   },
   {
-    "symbol": "APO^A",
-    "name": "Apollo Global Management Inc. 6.75% Series A Mandatory Convertible Preferred Stock",
-    "lastsale": "$64.85",
-    "netchange": "-1.81",
-    "pctchange": "-2.715%",
-    "volume": "38210",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/apo^a"
-  },
-  {
     "symbol": "APOS",
     "name": "Apollo Global Management Inc. 7.625% Fixed-Rate Resettable Junior Subordinated Notes due 2053",
     "lastsale": "$26.27",
@@ -2364,6 +2350,20 @@
     "industry": "Investment Managers",
     "sector": "Finance",
     "url": "/market-activity/stocks/apos"
+  },
+  {
+    "symbol": "APO^A",
+    "name": "Apollo Global Management Inc. 6.75% Series A Mandatory Convertible Preferred Stock",
+    "lastsale": "$64.85",
+    "netchange": "-1.81",
+    "pctchange": "-2.715%",
+    "volume": "38210",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/apo^a"
   },
   {
     "symbol": "APTV",
@@ -2688,6 +2688,20 @@
     "url": "/market-activity/stocks/asb"
   },
   {
+    "symbol": "ASBA",
+    "name": "Associated Banc-Corp 6.625% Fixed-Rate Reset Subordinated Notes due 2033",
+    "lastsale": "$24.91",
+    "netchange": "0.00",
+    "pctchange": "0.00%",
+    "volume": "5336",
+    "marketCap": "3758939302.00",
+    "country": "United States",
+    "ipoyear": "2023",
+    "industry": "Major Banks",
+    "sector": "Finance",
+    "url": "/market-activity/stocks/asba"
+  },
+  {
     "symbol": "ASB^E",
     "name": "Associated Banc-Corp Depositary Shares each representing a 1/40th interest in a share of 5.875% Non-Cumulative Perpetual Preferred Stock Series E",
     "lastsale": "$21.45",
@@ -2714,20 +2728,6 @@
     "industry": "",
     "sector": "",
     "url": "/market-activity/stocks/asb^f"
-  },
-  {
-    "symbol": "ASBA",
-    "name": "Associated Banc-Corp 6.625% Fixed-Rate Reset Subordinated Notes due 2033",
-    "lastsale": "$24.91",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "5336",
-    "marketCap": "3758939302.00",
-    "country": "United States",
-    "ipoyear": "2023",
-    "industry": "Major Banks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/asba"
   },
   {
     "symbol": "ASC",
@@ -2912,6 +2912,34 @@
     "url": "/market-activity/stocks/atge"
   },
   {
+    "symbol": "ATHM",
+    "name": "Autohome Inc. American Depositary Shares each representing four class A ordinary shares.",
+    "lastsale": "$26.12",
+    "netchange": "-0.44",
+    "pctchange": "-1.657%",
+    "volume": "394061",
+    "marketCap": "3093750358.00",
+    "country": "China",
+    "ipoyear": "2013",
+    "industry": "EDP Services",
+    "sector": "Technology",
+    "url": "/market-activity/stocks/athm"
+  },
+  {
+    "symbol": "ATHS",
+    "name": "Athene Holding Ltd. 7.250% Fixed-Rate Reset Junior Subordinated Debentures due 2064",
+    "lastsale": "$25.29",
+    "netchange": "-0.01",
+    "pctchange": "-0.04%",
+    "volume": "20896",
+    "marketCap": "5154228450.00",
+    "country": "Bermuda",
+    "ipoyear": "2024",
+    "industry": "Life Insurance",
+    "sector": "Finance",
+    "url": "/market-activity/stocks/aths"
+  },
+  {
     "symbol": "ATH^A",
     "name": "Athene Holding Ltd. Depositary Shares Each Representing a 1/1000th Interest in a 6.35% Fixed-to-Floating Rate Perpetual Non-Cumulative Preference Share Series A",
     "lastsale": "$24.95",
@@ -2966,34 +2994,6 @@
     "industry": "",
     "sector": "",
     "url": "/market-activity/stocks/ath^e"
-  },
-  {
-    "symbol": "ATHM",
-    "name": "Autohome Inc. American Depositary Shares each representing four class A ordinary shares.",
-    "lastsale": "$26.12",
-    "netchange": "-0.44",
-    "pctchange": "-1.657%",
-    "volume": "394061",
-    "marketCap": "3093750358.00",
-    "country": "China",
-    "ipoyear": "2013",
-    "industry": "EDP Services",
-    "sector": "Technology",
-    "url": "/market-activity/stocks/athm"
-  },
-  {
-    "symbol": "ATHS",
-    "name": "Athene Holding Ltd. 7.250% Fixed-Rate Reset Junior Subordinated Debentures due 2064",
-    "lastsale": "$25.29",
-    "netchange": "-0.01",
-    "pctchange": "-0.04%",
-    "volume": "20896",
-    "marketCap": "5154228450.00",
-    "country": "Bermuda",
-    "ipoyear": "2024",
-    "industry": "Life Insurance",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/aths"
   },
   {
     "symbol": "ATI",
@@ -3528,20 +3528,6 @@
     "url": "/market-activity/stocks/ba"
   },
   {
-    "symbol": "BA^A",
-    "name": "Boeing Company (The) Depositary Shares each representing a 1/20th interest in a share of 6.00% Series A Mandatory Convertible Preferred Stock par value $1.00",
-    "lastsale": "$69.72",
-    "netchange": "0.32",
-    "pctchange": "0.461%",
-    "volume": "15460",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ba^a"
-  },
-  {
     "symbol": "BABA",
     "name": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
     "lastsale": "$171.90",
@@ -3850,6 +3836,20 @@
     "url": "/market-activity/stocks/bax"
   },
   {
+    "symbol": "BA^A",
+    "name": "Boeing Company (The) Depositary Shares each representing a 1/20th interest in a share of 6.00% Series A Mandatory Convertible Preferred Stock par value $1.00",
+    "lastsale": "$69.72",
+    "netchange": "0.32",
+    "pctchange": "0.461%",
+    "volume": "15460",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/ba^a"
+  },
+  {
     "symbol": "BB",
     "name": "BlackBerry Limited Common Stock",
     "lastsale": "$4.61",
@@ -4074,34 +4074,6 @@
     "url": "/market-activity/stocks/bc"
   },
   {
-    "symbol": "BC^A",
-    "name": "Brunswick Corporation 6.500% Senior Notes due 2048",
-    "lastsale": "$24.32",
-    "netchange": "-0.005",
-    "pctchange": "-0.021%",
-    "volume": "8090",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/bc^a"
-  },
-  {
-    "symbol": "BC^C",
-    "name": "Brunswick Corporation 6.375% Notes due 2049",
-    "lastsale": "$24.44",
-    "netchange": "-0.0599",
-    "pctchange": "-0.244%",
-    "volume": "2151",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/bc^c"
-  },
-  {
     "symbol": "BCAT",
     "name": "BlackRock Capital Allocation Term Trust Common Shares of Beneficial Interest",
     "lastsale": "$14.43",
@@ -4212,6 +4184,34 @@
     "industry": "Finance/Investors Services",
     "sector": "Finance",
     "url": "/market-activity/stocks/bcx"
+  },
+  {
+    "symbol": "BC^A",
+    "name": "Brunswick Corporation 6.500% Senior Notes due 2048",
+    "lastsale": "$24.32",
+    "netchange": "-0.005",
+    "pctchange": "-0.021%",
+    "volume": "8090",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/bc^a"
+  },
+  {
+    "symbol": "BC^C",
+    "name": "Brunswick Corporation 6.375% Notes due 2049",
+    "lastsale": "$24.44",
+    "netchange": "-0.0599",
+    "pctchange": "-0.244%",
+    "volume": "2151",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/bc^c"
   },
   {
     "symbol": "BDC",
@@ -4340,20 +4340,6 @@
     "url": "/market-activity/stocks/bep"
   },
   {
-    "symbol": "BEP^A",
-    "name": "Brookfield Renewable Partners L.P. 5.25% Class A Preferred Limited Partnership Units Series 17",
-    "lastsale": "$18.4499",
-    "netchange": "0.0424",
-    "pctchange": "0.23%",
-    "volume": "4093",
-    "marketCap": "",
-    "country": "Canada",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/bep^a"
-  },
-  {
     "symbol": "BEPC",
     "name": "Brookfield Renewable Corporation Brookfield Renewable Corporation Class A Subordinate Voting Shares",
     "lastsale": "$39.59",
@@ -4408,6 +4394,20 @@
     "industry": "Electric Utilities: Central",
     "sector": "Utilities",
     "url": "/market-activity/stocks/bepj"
+  },
+  {
+    "symbol": "BEP^A",
+    "name": "Brookfield Renewable Partners L.P. 5.25% Class A Preferred Limited Partnership Units Series 17",
+    "lastsale": "$18.4499",
+    "netchange": "0.0424",
+    "pctchange": "0.23%",
+    "volume": "4093",
+    "marketCap": "",
+    "country": "Canada",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/bep^a"
   },
   {
     "symbol": "BF/A",
@@ -4872,34 +4872,6 @@
     "url": "/market-activity/stocks/bip"
   },
   {
-    "symbol": "BIP^A",
-    "name": "Brookfield Infrastructure Partners LP 5.125% Class A Preferred Limited Partnership Units Series 13",
-    "lastsale": "$17.48",
-    "netchange": "-0.01",
-    "pctchange": "-0.057%",
-    "volume": "7441",
-    "marketCap": "",
-    "country": "Bermuda",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/bip^a"
-  },
-  {
-    "symbol": "BIP^B",
-    "name": "Brookfield Infrastructure Partners LP 5.000% Class A Preferred Limited Partnership Units Series 14",
-    "lastsale": "$16.99",
-    "netchange": "0.12",
-    "pctchange": "0.711%",
-    "volume": "3486",
-    "marketCap": "",
-    "country": "Bermuda",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/bip^b"
-  },
-  {
     "symbol": "BIPC",
     "name": "Brookfield Infrastructure Corporation Brookfield Infrastructure Corporation",
     "lastsale": "$44.66",
@@ -4956,6 +4928,34 @@
     "url": "/market-activity/stocks/bipj"
   },
   {
+    "symbol": "BIP^A",
+    "name": "Brookfield Infrastructure Partners LP 5.125% Class A Preferred Limited Partnership Units Series 13",
+    "lastsale": "$17.48",
+    "netchange": "-0.01",
+    "pctchange": "-0.057%",
+    "volume": "7441",
+    "marketCap": "",
+    "country": "Bermuda",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/bip^a"
+  },
+  {
+    "symbol": "BIP^B",
+    "name": "Brookfield Infrastructure Partners LP 5.000% Class A Preferred Limited Partnership Units Series 14",
+    "lastsale": "$16.99",
+    "netchange": "0.12",
+    "pctchange": "0.711%",
+    "volume": "3486",
+    "marketCap": "",
+    "country": "Bermuda",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/bip^b"
+  },
+  {
     "symbol": "BIRK",
     "name": "Birkenstock Holding plc Ordinary Shares",
     "lastsale": "$43.10",
@@ -5010,20 +5010,6 @@
     "industry": "Major Banks",
     "sector": "Finance",
     "url": "/market-activity/stocks/bk"
-  },
-  {
-    "symbol": "BK^K",
-    "name": "The Bank Of New York Mellon Corporation  Depositary Shares each representing a 1/4000th interest in a share of Series K Noncumulative Perpetual Preferred Stock",
-    "lastsale": "$25.87",
-    "netchange": "0.02",
-    "pctchange": "0.077%",
-    "volume": "22100",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/bk^k"
   },
   {
     "symbol": "BKD",
@@ -5150,6 +5136,20 @@
     "industry": "Oil & Gas Production",
     "sector": "Energy",
     "url": "/market-activity/stocks/bkv"
+  },
+  {
+    "symbol": "BK^K",
+    "name": "The Bank Of New York Mellon Corporation  Depositary Shares each representing a 1/4000th interest in a share of Series K Noncumulative Perpetual Preferred Stock",
+    "lastsale": "$25.87",
+    "netchange": "0.02",
+    "pctchange": "0.077%",
+    "volume": "22100",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/bk^k"
   },
   {
     "symbol": "BLCO",
@@ -6174,20 +6174,6 @@
     "url": "/market-activity/stocks/bw"
   },
   {
-    "symbol": "BW^A",
-    "name": "Babcock & Wilcox Enterprises Inc. 7.75% Series A Cumulative Perpetual Preferred Stock",
-    "lastsale": "$15.71",
-    "netchange": "0.125",
-    "pctchange": "0.802%",
-    "volume": "8567",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/bw^a"
-  },
-  {
     "symbol": "BWA",
     "name": "BorgWarner Inc. Common Stock",
     "lastsale": "$43.71",
@@ -6284,6 +6270,20 @@
     "industry": "Industrial Machinery/Components",
     "sector": "Industrials",
     "url": "/market-activity/stocks/bwxt"
+  },
+  {
+    "symbol": "BW^A",
+    "name": "Babcock & Wilcox Enterprises Inc. 7.75% Series A Cumulative Perpetual Preferred Stock",
+    "lastsale": "$15.71",
+    "netchange": "0.125",
+    "pctchange": "0.802%",
+    "volume": "8567",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/bw^a"
   },
   {
     "symbol": "BX",
@@ -6438,20 +6438,6 @@
     "industry": "Major Banks",
     "sector": "Finance",
     "url": "/market-activity/stocks/c"
-  },
-  {
-    "symbol": "C^N",
-    "name": "Citigroup Capital XIII 7.875% Fixed rate Floating Rate trust Preferred Securities (TruPS)",
-    "lastsale": "$30.92",
-    "netchange": "-0.05",
-    "pctchange": "-0.161%",
-    "volume": "49810",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/c^n"
   },
   {
     "symbol": "CAAP",
@@ -7042,6 +7028,20 @@
     "url": "/market-activity/stocks/cdp"
   },
   {
+    "symbol": "CDRE",
+    "name": "Cadre Holdings Inc. Common Stock",
+    "lastsale": "$42.60",
+    "netchange": "1.49",
+    "pctchange": "3.624%",
+    "volume": "203116",
+    "marketCap": "1732279754.00",
+    "country": "United States",
+    "ipoyear": "2021",
+    "industry": "Industrial Specialties",
+    "sector": "Health Care",
+    "url": "/market-activity/stocks/cdre"
+  },
+  {
     "symbol": "CDR^B",
     "name": "Cedar Realty Trust Inc. 7.25% Series B Cumulative Redeemable Preferred Stock",
     "lastsale": "$18.50",
@@ -7068,20 +7068,6 @@
     "industry": "",
     "sector": "",
     "url": "/market-activity/stocks/cdr^c"
-  },
-  {
-    "symbol": "CDRE",
-    "name": "Cadre Holdings Inc. Common Stock",
-    "lastsale": "$42.60",
-    "netchange": "1.49",
-    "pctchange": "3.624%",
-    "volume": "203116",
-    "marketCap": "1732279754.00",
-    "country": "United States",
-    "ipoyear": "2021",
-    "industry": "Industrial Specialties",
-    "sector": "Health Care",
-    "url": "/market-activity/stocks/cdre"
   },
   {
     "symbol": "CE",
@@ -7546,6 +7532,48 @@
     "url": "/market-activity/stocks/cim"
   },
   {
+    "symbol": "CIMN",
+    "name": "Chimera Investment Corporation 9.000% Senior Notes due 2029",
+    "lastsale": "$25.39",
+    "netchange": "-0.03",
+    "pctchange": "-0.118%",
+    "volume": "2408",
+    "marketCap": "2044674371.00",
+    "country": "United States",
+    "ipoyear": "2024",
+    "industry": "Real Estate Investment Trusts",
+    "sector": "Real Estate",
+    "url": "/market-activity/stocks/cimn"
+  },
+  {
+    "symbol": "CIMO",
+    "name": "Chimera Investment Corporation 9.250% Senior Notes due 2029",
+    "lastsale": "$25.6301",
+    "netchange": "0.0401",
+    "pctchange": "0.157%",
+    "volume": "10085",
+    "marketCap": "0.00",
+    "country": "United States",
+    "ipoyear": "2024",
+    "industry": "Real Estate Investment Trusts",
+    "sector": "Real Estate",
+    "url": "/market-activity/stocks/cimo"
+  },
+  {
+    "symbol": "CIMP",
+    "name": "Chimera Investment Corporation 8.875% Senior Notes due 2030",
+    "lastsale": "$25.1599",
+    "netchange": "0.0599",
+    "pctchange": "0.239%",
+    "volume": "13432",
+    "marketCap": "0.00",
+    "country": "United States",
+    "ipoyear": "2025",
+    "industry": "Real Estate Investment Trusts",
+    "sector": "Real Estate",
+    "url": "/market-activity/stocks/cimp"
+  },
+  {
     "symbol": "CIM^A",
     "name": "Chimera Investment Corporation 8.00% Series A Cumulative Redeemable Preferred Stock",
     "lastsale": "$22.10",
@@ -7602,48 +7630,6 @@
     "url": "/market-activity/stocks/cim^d"
   },
   {
-    "symbol": "CIMN",
-    "name": "Chimera Investment Corporation 9.000% Senior Notes due 2029",
-    "lastsale": "$25.39",
-    "netchange": "-0.03",
-    "pctchange": "-0.118%",
-    "volume": "2408",
-    "marketCap": "2044674371.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "Real Estate Investment Trusts",
-    "sector": "Real Estate",
-    "url": "/market-activity/stocks/cimn"
-  },
-  {
-    "symbol": "CIMO",
-    "name": "Chimera Investment Corporation 9.250% Senior Notes due 2029",
-    "lastsale": "$25.6301",
-    "netchange": "0.0401",
-    "pctchange": "0.157%",
-    "volume": "10085",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "Real Estate Investment Trusts",
-    "sector": "Real Estate",
-    "url": "/market-activity/stocks/cimo"
-  },
-  {
-    "symbol": "CIMP",
-    "name": "Chimera Investment Corporation 8.875% Senior Notes due 2030",
-    "lastsale": "$25.1599",
-    "netchange": "0.0599",
-    "pctchange": "0.239%",
-    "volume": "13432",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "Real Estate Investment Trusts",
-    "sector": "Real Estate",
-    "url": "/market-activity/stocks/cimp"
-  },
-  {
     "symbol": "CINT",
     "name": "CI&T Inc Class A Common Shares",
     "lastsale": "$4.97",
@@ -7672,20 +7658,6 @@
     "url": "/market-activity/stocks/cio"
   },
   {
-    "symbol": "CIO^A",
-    "name": "City Office REIT Inc. 6.625% Series A Cumulative Redeemable Preferred Stock",
-    "lastsale": "$24.98",
-    "netchange": "0.0432",
-    "pctchange": "0.173%",
-    "volume": "19593",
-    "marketCap": "",
-    "country": "Canada",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/cio^a"
-  },
-  {
     "symbol": "CION",
     "name": "CION Investment Corporation Common Stock",
     "lastsale": "$9.47",
@@ -7698,6 +7670,20 @@
     "industry": "Finance/Investors Services",
     "sector": "Finance",
     "url": "/market-activity/stocks/cion"
+  },
+  {
+    "symbol": "CIO^A",
+    "name": "City Office REIT Inc. 6.625% Series A Cumulative Redeemable Preferred Stock",
+    "lastsale": "$24.98",
+    "netchange": "0.0432",
+    "pctchange": "0.173%",
+    "volume": "19593",
+    "marketCap": "",
+    "country": "Canada",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/cio^a"
   },
   {
     "symbol": "CIVI",
@@ -8106,34 +8092,6 @@
     "url": "/market-activity/stocks/cms"
   },
   {
-    "symbol": "CMS^B",
-    "name": "CMS Energy Corporation Preferred Stock",
-    "lastsale": "$80.54",
-    "netchange": "0.54",
-    "pctchange": "0.675%",
-    "volume": "444",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/cms^b"
-  },
-  {
-    "symbol": "CMS^C",
-    "name": "CMS Energy Corporation Depositary Shares each representing a 1/1000th interest in a share of 4.200% Cumulative Redeemable Perpetual Preferred Stock Series C",
-    "lastsale": "$19.14",
-    "netchange": "0.09",
-    "pctchange": "0.472%",
-    "volume": "13762",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/cms^c"
-  },
-  {
     "symbol": "CMSA",
     "name": "CMS Energy Corporation 5.625% Junior Subordinated Notes due 2078",
     "lastsale": "$23.43",
@@ -8174,6 +8132,34 @@
     "industry": "Power Generation",
     "sector": "Utilities",
     "url": "/market-activity/stocks/cmsd"
+  },
+  {
+    "symbol": "CMS^B",
+    "name": "CMS Energy Corporation Preferred Stock",
+    "lastsale": "$80.54",
+    "netchange": "0.54",
+    "pctchange": "0.675%",
+    "volume": "444",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/cms^b"
+  },
+  {
+    "symbol": "CMS^C",
+    "name": "CMS Energy Corporation Depositary Shares each representing a 1/1000th interest in a share of 4.200% Cumulative Redeemable Perpetual Preferred Stock Series C",
+    "lastsale": "$19.14",
+    "netchange": "0.09",
+    "pctchange": "0.472%",
+    "volume": "13762",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/cms^c"
   },
   {
     "symbol": "CMTG",
@@ -9254,20 +9240,6 @@
     "url": "/market-activity/stocks/cto"
   },
   {
-    "symbol": "CTO^A",
-    "name": "CTO Realty Growth Inc. 6.375% Series A Cumulative Redeemable Preferred Stock",
-    "lastsale": "$21.24",
-    "netchange": "0.35",
-    "pctchange": "1.675%",
-    "volume": "3729",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/cto^a"
-  },
-  {
     "symbol": "CTOS",
     "name": "Custom Truck One Source Inc. Common Stock",
     "lastsale": "$6.39",
@@ -9280,6 +9252,20 @@
     "industry": "Diversified Commercial Services",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/ctos"
+  },
+  {
+    "symbol": "CTO^A",
+    "name": "CTO Realty Growth Inc. 6.375% Series A Cumulative Redeemable Preferred Stock",
+    "lastsale": "$21.24",
+    "netchange": "0.35",
+    "pctchange": "1.675%",
+    "volume": "3729",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/cto^a"
   },
   {
     "symbol": "CTRA",
@@ -9770,6 +9756,20 @@
     "industry": "Hospital/Nursing Management",
     "sector": "Health Care",
     "url": "/market-activity/stocks/cyh"
+  },
+  {
+    "symbol": "C^N",
+    "name": "Citigroup Capital XIII 7.875% Fixed rate Floating Rate trust Preferred Securities (TruPS)",
+    "lastsale": "$30.92",
+    "netchange": "-0.05",
+    "pctchange": "-0.161%",
+    "volume": "49810",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/c^n"
   },
   {
     "symbol": "D",
@@ -11018,20 +11018,6 @@
     "url": "/market-activity/stocks/duk"
   },
   {
-    "symbol": "DUK^A",
-    "name": "Duke Energy Corporation Depositary Shares each representing a 1/1000th interest in a share of 5.75% Series A Cumulative Redeemable Perpetual Preferred Stock",
-    "lastsale": "$25.16",
-    "netchange": "0.01",
-    "pctchange": "0.04%",
-    "volume": "20804",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/duk^a"
-  },
-  {
     "symbol": "DUKB",
     "name": "Duke Energy Corporation 5.625% Junior Subordinated Debentures due 2078",
     "lastsale": "$24.64",
@@ -11044,6 +11030,20 @@
     "industry": "Power Generation",
     "sector": "Utilities",
     "url": "/market-activity/stocks/dukb"
+  },
+  {
+    "symbol": "DUK^A",
+    "name": "Duke Energy Corporation Depositary Shares each representing a 1/1000th interest in a share of 5.75% Series A Cumulative Redeemable Perpetual Preferred Stock",
+    "lastsale": "$25.16",
+    "netchange": "0.01",
+    "pctchange": "0.04%",
+    "volume": "20804",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/duk^a"
   },
   {
     "symbol": "DV",
@@ -11102,20 +11102,6 @@
     "url": "/market-activity/stocks/dx"
   },
   {
-    "symbol": "DX^C",
-    "name": "Dynex Capital Inc. 6.900% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-    "lastsale": "$25.8606",
-    "netchange": "0.1106",
-    "pctchange": "0.43%",
-    "volume": "8554",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/dx^c"
-  },
-  {
     "symbol": "DXC",
     "name": "DXC Technology Company Common Stock ",
     "lastsale": "$13.37",
@@ -11142,6 +11128,20 @@
     "industry": "",
     "sector": "",
     "url": "/market-activity/stocks/dxyz"
+  },
+  {
+    "symbol": "DX^C",
+    "name": "Dynex Capital Inc. 6.900% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
+    "lastsale": "$25.8606",
+    "netchange": "0.1106",
+    "pctchange": "0.43%",
+    "volume": "8554",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/dx^c"
   },
   {
     "symbol": "DY",
@@ -11326,20 +11326,6 @@
     "url": "/market-activity/stocks/ecc           "
   },
   {
-    "symbol": "ECC^D",
-    "name": "Eagle Point Credit Company Inc. 6.75% Series D Preferred Stock",
-    "lastsale": "$19.5399",
-    "netchange": "0.0199",
-    "pctchange": "0.102%",
-    "volume": "5316",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ecc^d"
-  },
-  {
     "symbol": "ECCC",
     "name": "Eagle Point Credit Company Inc. 6.50% Series C Term Preferred Stock due 2031",
     "lastsale": "$23.3318",
@@ -11422,6 +11408,20 @@
     "industry": "Trusts Except Educational Religious and Charitable",
     "sector": "Finance",
     "url": "/market-activity/stocks/eccx"
+  },
+  {
+    "symbol": "ECC^D",
+    "name": "Eagle Point Credit Company Inc. 6.75% Series D Preferred Stock",
+    "lastsale": "$19.5399",
+    "netchange": "0.0199",
+    "pctchange": "0.102%",
+    "volume": "5316",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/ecc^d"
   },
   {
     "symbol": "ECG",
@@ -12334,20 +12334,6 @@
     "url": "/market-activity/stocks/eot"
   },
   {
-    "symbol": "EP^C",
-    "name": "El Paso Corporation Preferred Stock",
-    "lastsale": "$49.61",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "269",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ep^c"
-  },
-  {
     "symbol": "EPAC",
     "name": "Enerpac Tool Group Corp. Common Stock",
     "lastsale": "$42.44",
@@ -12418,6 +12404,20 @@
     "url": "/market-activity/stocks/epr"
   },
   {
+    "symbol": "EPRT",
+    "name": "Essential Properties Realty Trust Inc. Common Stock",
+    "lastsale": "$31.86",
+    "netchange": "0.49",
+    "pctchange": "1.562%",
+    "volume": "3807762",
+    "marketCap": "6312885427.00",
+    "country": "United States",
+    "ipoyear": "2018",
+    "industry": "Real Estate Investment Trusts",
+    "sector": "Real Estate",
+    "url": "/market-activity/stocks/eprt"
+  },
+  {
     "symbol": "EPR^C",
     "name": "EPR Properties 5.75% Series C Cumulative Convertible Preferred Shares",
     "lastsale": "$24.18",
@@ -12460,18 +12460,18 @@
     "url": "/market-activity/stocks/epr^g"
   },
   {
-    "symbol": "EPRT",
-    "name": "Essential Properties Realty Trust Inc. Common Stock",
-    "lastsale": "$31.86",
-    "netchange": "0.49",
-    "pctchange": "1.562%",
-    "volume": "3807762",
-    "marketCap": "6312885427.00",
+    "symbol": "EP^C",
+    "name": "El Paso Corporation Preferred Stock",
+    "lastsale": "$49.61",
+    "netchange": "0.00",
+    "pctchange": "0.00%",
+    "volume": "269",
+    "marketCap": "",
     "country": "United States",
-    "ipoyear": "2018",
-    "industry": "Real Estate Investment Trusts",
-    "sector": "Real Estate",
-    "url": "/market-activity/stocks/eprt"
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/ep^c"
   },
   {
     "symbol": "EQBK",
@@ -12754,20 +12754,6 @@
     "url": "/market-activity/stocks/et"
   },
   {
-    "symbol": "ET^I",
-    "name": "Energy Transfer L.P. Series I Fixed Rate Perpetual Preferred Units",
-    "lastsale": "$11.57",
-    "netchange": "0.07",
-    "pctchange": "0.609%",
-    "volume": "90465",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/et^i"
-  },
-  {
     "symbol": "ETB",
     "name": "Eaton Vance Tax-Managed Buy-Write Income Fund Eaton Vance Tax-Managed Buy-Write Income Fund Common Shares of Beneficial Interest",
     "lastsale": "$15.09",
@@ -12948,6 +12934,20 @@
     "industry": "Finance Companies",
     "sector": "Finance",
     "url": "/market-activity/stocks/ety"
+  },
+  {
+    "symbol": "ET^I",
+    "name": "Energy Transfer L.P. Series I Fixed Rate Perpetual Preferred Units",
+    "lastsale": "$11.57",
+    "netchange": "0.07",
+    "pctchange": "0.609%",
+    "volume": "90465",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/et^i"
   },
   {
     "symbol": "EVAC",
@@ -13200,48 +13200,6 @@
     "industry": "Auto Manufacturing",
     "sector": "Industrials",
     "url": "/market-activity/stocks/f"
-  },
-  {
-    "symbol": "F^B",
-    "name": "Ford Motor Company 6.20% Notes due June 1 2059",
-    "lastsale": "$22.75",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "23235",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/f^b"
-  },
-  {
-    "symbol": "F^C",
-    "name": "Ford Motor Company 6% Notes due December 1 2059",
-    "lastsale": "$22.56",
-    "netchange": "0.09",
-    "pctchange": "0.401%",
-    "volume": "17337",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/f^c"
-  },
-  {
-    "symbol": "F^D",
-    "name": "Ford Motor Company 6.500% Notes due August 15 2062",
-    "lastsale": "$24.3199",
-    "netchange": "0.1199",
-    "pctchange": "0.495%",
-    "volume": "23545",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/f^d"
   },
   {
     "symbol": "FAF",
@@ -14518,6 +14476,48 @@
     "url": "/market-activity/stocks/fvrr"
   },
   {
+    "symbol": "F^B",
+    "name": "Ford Motor Company 6.20% Notes due June 1 2059",
+    "lastsale": "$22.75",
+    "netchange": "0.00",
+    "pctchange": "0.00%",
+    "volume": "23235",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/f^b"
+  },
+  {
+    "symbol": "F^C",
+    "name": "Ford Motor Company 6% Notes due December 1 2059",
+    "lastsale": "$22.56",
+    "netchange": "0.09",
+    "pctchange": "0.401%",
+    "volume": "17337",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/f^c"
+  },
+  {
+    "symbol": "F^D",
+    "name": "Ford Motor Company 6.500% Notes due August 15 2062",
+    "lastsale": "$24.3199",
+    "netchange": "0.1199",
+    "pctchange": "0.495%",
+    "volume": "23545",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/f^d"
+  },
+  {
     "symbol": "G",
     "name": "Genpact Limited Common Stock",
     "lastsale": "$39.78",
@@ -15372,20 +15372,6 @@
     "url": "/market-activity/stocks/gl"
   },
   {
-    "symbol": "GL^D",
-    "name": "Globe Life Inc. 4.25% Junior Subordinated Debentures due 2061",
-    "lastsale": "$16.83",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "6891",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/gl^d"
-  },
-  {
     "symbol": "GLOB",
     "name": "Globant S.A. Common Shares",
     "lastsale": "$59.91",
@@ -15482,6 +15468,20 @@
     "industry": "Telecommunications Equipment",
     "sector": "Industrials",
     "url": "/market-activity/stocks/glw"
+  },
+  {
+    "symbol": "GL^D",
+    "name": "Globe Life Inc. 4.25% Junior Subordinated Debentures due 2061",
+    "lastsale": "$16.83",
+    "netchange": "0.00",
+    "pctchange": "0.00%",
+    "volume": "6891",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/gl^d"
   },
   {
     "symbol": "GM",
@@ -16030,48 +16030,6 @@
     "url": "/market-activity/stocks/gs"
   },
   {
-    "symbol": "GS^A",
-    "name": "Goldman Sachs Group Inc. (The) Depositary Shares each representing 1/1000th Interest in a Share of Floating Rate Non-Cumulative Preferred Stock Series A",
-    "lastsale": "$21.52",
-    "netchange": "-0.01",
-    "pctchange": "-0.046%",
-    "volume": "38027",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/gs^a"
-  },
-  {
-    "symbol": "GS^C",
-    "name": "Goldman Sachs Group Inc. (The) Depositary Share repstg 1/1000th Preferred Series C",
-    "lastsale": "$21.26",
-    "netchange": "-0.02",
-    "pctchange": "-0.094%",
-    "volume": "15098",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/gs^c"
-  },
-  {
-    "symbol": "GS^D",
-    "name": "Goldman Sachs Group Inc. (The) Dep Shs repstg 1/1000 Pfd Ser D Fltg",
-    "lastsale": "$21.04",
-    "netchange": "0.04",
-    "pctchange": "0.19%",
-    "volume": "79992",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/gs^d"
-  },
-  {
     "symbol": "GSBD",
     "name": "Goldman Sachs BDC Inc. Common Stock",
     "lastsale": "$9.82",
@@ -16126,6 +16084,48 @@
     "industry": "",
     "sector": "",
     "url": "/market-activity/stocks/gsl^b"
+  },
+  {
+    "symbol": "GS^A",
+    "name": "Goldman Sachs Group Inc. (The) Depositary Shares each representing 1/1000th Interest in a Share of Floating Rate Non-Cumulative Preferred Stock Series A",
+    "lastsale": "$21.52",
+    "netchange": "-0.01",
+    "pctchange": "-0.046%",
+    "volume": "38027",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/gs^a"
+  },
+  {
+    "symbol": "GS^C",
+    "name": "Goldman Sachs Group Inc. (The) Depositary Share repstg 1/1000th Preferred Series C",
+    "lastsale": "$21.26",
+    "netchange": "-0.02",
+    "pctchange": "-0.094%",
+    "volume": "15098",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/gs^c"
+  },
+  {
+    "symbol": "GS^D",
+    "name": "Goldman Sachs Group Inc. (The) Dep Shs repstg 1/1000 Pfd Ser D Fltg",
+    "lastsale": "$21.04",
+    "netchange": "0.04",
+    "pctchange": "0.19%",
+    "volume": "79992",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/gs^d"
   },
   {
     "symbol": "GTES",
@@ -16856,20 +16856,6 @@
     "url": "/market-activity/stocks/hl"
   },
   {
-    "symbol": "HL^B",
-    "name": "Hecla Mining Company Preferred Stock",
-    "lastsale": "$61.20",
-    "netchange": "0.8166",
-    "pctchange": "1.352%",
-    "volume": "2471",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/hl^b"
-  },
-  {
     "symbol": "HLF",
     "name": "Herbalife Ltd. Common Shares",
     "lastsale": "$8.51",
@@ -16966,6 +16952,20 @@
     "industry": "Oilfield Services/Equipment",
     "sector": "Energy",
     "url": "/market-activity/stocks/hlx"
+  },
+  {
+    "symbol": "HL^B",
+    "name": "Hecla Mining Company Preferred Stock",
+    "lastsale": "$61.20",
+    "netchange": "0.8166",
+    "pctchange": "1.352%",
+    "volume": "2471",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/hl^b"
   },
   {
     "symbol": "HMC",
@@ -19292,6 +19292,20 @@
     "url": "/market-activity/stocks/key"
   },
   {
+    "symbol": "KEYS",
+    "name": "Keysight Technologies Inc. Common Stock",
+    "lastsale": "$168.38",
+    "netchange": "3.69",
+    "pctchange": "2.241%",
+    "volume": "991027",
+    "marketCap": "28937155207.00",
+    "country": "United States",
+    "ipoyear": "2014",
+    "industry": "Industrial Machinery/Components",
+    "sector": "Industrials",
+    "url": "/market-activity/stocks/keys"
+  },
+  {
     "symbol": "KEY^I",
     "name": "KeyCorp Depositary Shares Each Representing a 1/40th Ownership Interest in a Share of Fixed-to-Floating Rate Perpetual Non-Cumulative Preferred Stock Series E",
     "lastsale": "$25.07",
@@ -19346,20 +19360,6 @@
     "industry": "",
     "sector": "",
     "url": "/market-activity/stocks/key^l"
-  },
-  {
-    "symbol": "KEYS",
-    "name": "Keysight Technologies Inc. Common Stock",
-    "lastsale": "$168.38",
-    "netchange": "3.69",
-    "pctchange": "2.241%",
-    "volume": "991027",
-    "marketCap": "28937155207.00",
-    "country": "United States",
-    "ipoyear": "2014",
-    "industry": "Industrial Machinery/Components",
-    "sector": "Industrials",
-    "url": "/market-activity/stocks/keys"
   },
   {
     "symbol": "KF",
@@ -19530,20 +19530,6 @@
     "url": "/market-activity/stocks/kkr"
   },
   {
-    "symbol": "KKR^D",
-    "name": "KKR & Co. Inc. 6.25% Series D Mandatory Convertible Preferred Stock",
-    "lastsale": "$50.10",
-    "netchange": "-0.60",
-    "pctchange": "-1.183%",
-    "volume": "35638",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/kkr^d"
-  },
-  {
     "symbol": "KKRS",
     "name": "KKR Group Finance Co. IX LLC 4.625% Subordinated Notes due 2061",
     "lastsale": "$18.25",
@@ -19570,6 +19556,20 @@
     "industry": "Investment Managers",
     "sector": "Finance",
     "url": "/market-activity/stocks/kkrt"
+  },
+  {
+    "symbol": "KKR^D",
+    "name": "KKR & Co. Inc. 6.25% Series D Mandatory Convertible Preferred Stock",
+    "lastsale": "$50.10",
+    "netchange": "-0.60",
+    "pctchange": "-1.183%",
+    "volume": "35638",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/kkr^d"
   },
   {
     "symbol": "KLAR",
@@ -21602,34 +21602,6 @@
     "url": "/market-activity/stocks/mfa"
   },
   {
-    "symbol": "MFA^B",
-    "name": "MFA Financial Inc. Preferred Series B",
-    "lastsale": "$21.12",
-    "netchange": "-0.1267",
-    "pctchange": "-0.596%",
-    "volume": "6147",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/mfa^b"
-  },
-  {
-    "symbol": "MFA^C",
-    "name": "MFA Financial Inc. 6.50% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-    "lastsale": "$23.77",
-    "netchange": "0.03",
-    "pctchange": "0.126%",
-    "volume": "10316",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/mfa^c"
-  },
-  {
     "symbol": "MFAN",
     "name": "MFA Financial Inc. 8.875% Senior Notes due 2029",
     "lastsale": "$25.3172",
@@ -21656,6 +21628,34 @@
     "industry": "Real Estate Investment Trusts",
     "sector": "Real Estate",
     "url": "/market-activity/stocks/mfao"
+  },
+  {
+    "symbol": "MFA^B",
+    "name": "MFA Financial Inc. Preferred Series B",
+    "lastsale": "$21.12",
+    "netchange": "-0.1267",
+    "pctchange": "-0.596%",
+    "volume": "6147",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/mfa^b"
+  },
+  {
+    "symbol": "MFA^C",
+    "name": "MFA Financial Inc. 6.50% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
+    "lastsale": "$23.77",
+    "netchange": "0.03",
+    "pctchange": "0.126%",
+    "volume": "10316",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/mfa^c"
   },
   {
     "symbol": "MFC",
@@ -22582,132 +22582,6 @@
     "url": "/market-activity/stocks/ms"
   },
   {
-    "symbol": "MS^A",
-    "name": "Morgan Stanley Dep Shs repstg 1/1000 Pfd Ser A",
-    "lastsale": "$20.95",
-    "netchange": "0.04",
-    "pctchange": "0.191%",
-    "volume": "71660",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ms^a"
-  },
-  {
-    "symbol": "MS^E",
-    "name": "Morgan Stanley DEPOSITARY SHARES REP 1/1000TH SHARES FIXED/FLTG PREFERRED STOCK SERIES E",
-    "lastsale": "$25.74",
-    "netchange": "0.02",
-    "pctchange": "0.078%",
-    "volume": "33300",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ms^e"
-  },
-  {
-    "symbol": "MS^F",
-    "name": "Morgan Stanley Dep Shs Rpstg 1/1000th Int Prd Ser F Fxd to Flag",
-    "lastsale": "$25.27",
-    "netchange": "0.02",
-    "pctchange": "0.079%",
-    "volume": "52506",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ms^f"
-  },
-  {
-    "symbol": "MS^I",
-    "name": "Morgan Stanley Depository Shares Representing 1/1000th Preferred Series 1 Fixed to Floating Non (Cum)",
-    "lastsale": "$25.20",
-    "netchange": "0.02",
-    "pctchange": "0.079%",
-    "volume": "40100",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ms^i"
-  },
-  {
-    "symbol": "MS^K",
-    "name": "Morgan Stanley Depositary Shares each representing 1/1000th of a share of Fixed-to-Floating Rate Non-Cumulative Preferred Stock  Series K",
-    "lastsale": "$24.68",
-    "netchange": "-0.115",
-    "pctchange": "-0.464%",
-    "volume": "49776",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ms^k"
-  },
-  {
-    "symbol": "MS^L",
-    "name": "Morgan Stanley Depositary Shares each representing 1/1000th of a share of 4.875% Non-Cumulative Preferred Stock Series L",
-    "lastsale": "$21.53",
-    "netchange": "-0.01",
-    "pctchange": "-0.046%",
-    "volume": "18803",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ms^l"
-  },
-  {
-    "symbol": "MS^O",
-    "name": "Morgan Stanley Depositary Shares each representing 1/1000th of a share of 4.250% Non-Cumulative Preferred Stock Series O",
-    "lastsale": "$18.3401",
-    "netchange": "-0.0499",
-    "pctchange": "-0.271%",
-    "volume": "64715",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ms^o"
-  },
-  {
-    "symbol": "MS^P",
-    "name": "Morgan Stanley Depositary Shares each representing 1/1000th of a share of 6.500% Non-Cumulative Preferred Stock Series P",
-    "lastsale": "$25.82",
-    "netchange": "0.14",
-    "pctchange": "0.545%",
-    "volume": "46599",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ms^p"
-  },
-  {
-    "symbol": "MS^Q",
-    "name": "Morgan Stanley Depositary Shares each representing 1/1000th of a share of 6.625% Non-Cumulative Preferred Stock Series Q",
-    "lastsale": "$26.28",
-    "netchange": "0.04",
-    "pctchange": "0.152%",
-    "volume": "37933",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ms^q"
-  },
-  {
     "symbol": "MSA",
     "name": "MSA Safety Incorporated Common Stock",
     "lastsale": "$166.72",
@@ -22860,6 +22734,132 @@
     "industry": "Industrial Machinery/Components",
     "sector": "Industrials",
     "url": "/market-activity/stocks/msm"
+  },
+  {
+    "symbol": "MS^A",
+    "name": "Morgan Stanley Dep Shs repstg 1/1000 Pfd Ser A",
+    "lastsale": "$20.95",
+    "netchange": "0.04",
+    "pctchange": "0.191%",
+    "volume": "71660",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/ms^a"
+  },
+  {
+    "symbol": "MS^E",
+    "name": "Morgan Stanley DEPOSITARY SHARES REP 1/1000TH SHARES FIXED/FLTG PREFERRED STOCK SERIES E",
+    "lastsale": "$25.74",
+    "netchange": "0.02",
+    "pctchange": "0.078%",
+    "volume": "33300",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/ms^e"
+  },
+  {
+    "symbol": "MS^F",
+    "name": "Morgan Stanley Dep Shs Rpstg 1/1000th Int Prd Ser F Fxd to Flag",
+    "lastsale": "$25.27",
+    "netchange": "0.02",
+    "pctchange": "0.079%",
+    "volume": "52506",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/ms^f"
+  },
+  {
+    "symbol": "MS^I",
+    "name": "Morgan Stanley Depository Shares Representing 1/1000th Preferred Series 1 Fixed to Floating Non (Cum)",
+    "lastsale": "$25.20",
+    "netchange": "0.02",
+    "pctchange": "0.079%",
+    "volume": "40100",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/ms^i"
+  },
+  {
+    "symbol": "MS^K",
+    "name": "Morgan Stanley Depositary Shares each representing 1/1000th of a share of Fixed-to-Floating Rate Non-Cumulative Preferred Stock  Series K",
+    "lastsale": "$24.68",
+    "netchange": "-0.115",
+    "pctchange": "-0.464%",
+    "volume": "49776",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/ms^k"
+  },
+  {
+    "symbol": "MS^L",
+    "name": "Morgan Stanley Depositary Shares each representing 1/1000th of a share of 4.875% Non-Cumulative Preferred Stock Series L",
+    "lastsale": "$21.53",
+    "netchange": "-0.01",
+    "pctchange": "-0.046%",
+    "volume": "18803",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/ms^l"
+  },
+  {
+    "symbol": "MS^O",
+    "name": "Morgan Stanley Depositary Shares each representing 1/1000th of a share of 4.250% Non-Cumulative Preferred Stock Series O",
+    "lastsale": "$18.3401",
+    "netchange": "-0.0499",
+    "pctchange": "-0.271%",
+    "volume": "64715",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/ms^o"
+  },
+  {
+    "symbol": "MS^P",
+    "name": "Morgan Stanley Depositary Shares each representing 1/1000th of a share of 6.500% Non-Cumulative Preferred Stock Series P",
+    "lastsale": "$25.82",
+    "netchange": "0.14",
+    "pctchange": "0.545%",
+    "volume": "46599",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/ms^p"
+  },
+  {
+    "symbol": "MS^Q",
+    "name": "Morgan Stanley Depositary Shares each representing 1/1000th of a share of 6.625% Non-Cumulative Preferred Stock Series Q",
+    "lastsale": "$26.28",
+    "netchange": "0.04",
+    "pctchange": "0.152%",
+    "volume": "37933",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/ms^q"
   },
   {
     "symbol": "MT",
@@ -27328,48 +27328,6 @@
     "url": "/market-activity/stocks/pmt"
   },
   {
-    "symbol": "PMT^A",
-    "name": "PennyMac Mortgage Investment Trust 8.125% Series A Fixed-to-Floating Rate Cumulative Redeemable Preferred Shares of Beneficial Interest",
-    "lastsale": "$24.02",
-    "netchange": "0.03",
-    "pctchange": "0.125%",
-    "volume": "2799",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/pmt^a"
-  },
-  {
-    "symbol": "PMT^B",
-    "name": "PennyMac Mortgage Investment Trust 8.00% Series B Fixed-to-Floating Rate Cumulative Redeemable Preferred Shares of Beneficial Interest",
-    "lastsale": "$23.97",
-    "netchange": "-0.03",
-    "pctchange": "-0.125%",
-    "volume": "4307",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/pmt^b"
-  },
-  {
-    "symbol": "PMT^C",
-    "name": "PennyMac Mortgage Investment Trust 6.75% Series C Cumulative Redeemable Preferred Shares of Beneficial Interest",
-    "lastsale": "$19.115",
-    "netchange": "0.075",
-    "pctchange": "0.394%",
-    "volume": "18381",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/pmt^c"
-  },
-  {
     "symbol": "PMTU",
     "name": "PennyMac Mortgage Investment Trust 8.50% Senior Notes due 2028",
     "lastsale": "$25.80",
@@ -27410,6 +27368,48 @@
     "industry": "Real Estate Investment Trusts",
     "sector": "Real Estate",
     "url": "/market-activity/stocks/pmtw"
+  },
+  {
+    "symbol": "PMT^A",
+    "name": "PennyMac Mortgage Investment Trust 8.125% Series A Fixed-to-Floating Rate Cumulative Redeemable Preferred Shares of Beneficial Interest",
+    "lastsale": "$24.02",
+    "netchange": "0.03",
+    "pctchange": "0.125%",
+    "volume": "2799",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/pmt^a"
+  },
+  {
+    "symbol": "PMT^B",
+    "name": "PennyMac Mortgage Investment Trust 8.00% Series B Fixed-to-Floating Rate Cumulative Redeemable Preferred Shares of Beneficial Interest",
+    "lastsale": "$23.97",
+    "netchange": "-0.03",
+    "pctchange": "-0.125%",
+    "volume": "4307",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/pmt^b"
+  },
+  {
+    "symbol": "PMT^C",
+    "name": "PennyMac Mortgage Investment Trust 6.75% Series C Cumulative Redeemable Preferred Shares of Beneficial Interest",
+    "lastsale": "$19.115",
+    "netchange": "0.075",
+    "pctchange": "0.394%",
+    "volume": "18381",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/pmt^c"
   },
   {
     "symbol": "PNC",
@@ -28658,34 +28658,6 @@
     "url": "/market-activity/stocks/rc"
   },
   {
-    "symbol": "RC^C",
-    "name": "Ready Capital Corporation 6.25% Series C Cumulative Convertible Preferred Stock",
-    "lastsale": "$15.39",
-    "netchange": "-0.295",
-    "pctchange": "-1.881%",
-    "volume": "2003",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/rc^c"
-  },
-  {
-    "symbol": "RC^E",
-    "name": "Ready Capital Corporation 6.50% Series E Cumulative Redeemable Preferred Stock",
-    "lastsale": "$14.70",
-    "netchange": "-0.43",
-    "pctchange": "-2.842%",
-    "volume": "80126",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/rc^e"
-  },
-  {
     "symbol": "RCB",
     "name": "Ready Capital Corporation 6.20% Senior Notes due 2026",
     "lastsale": "$24.48",
@@ -28782,6 +28754,34 @@
     "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/rcus"
+  },
+  {
+    "symbol": "RC^C",
+    "name": "Ready Capital Corporation 6.25% Series C Cumulative Convertible Preferred Stock",
+    "lastsale": "$15.39",
+    "netchange": "-0.295",
+    "pctchange": "-1.881%",
+    "volume": "2003",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/rc^c"
+  },
+  {
+    "symbol": "RC^E",
+    "name": "Ready Capital Corporation 6.50% Series E Cumulative Redeemable Preferred Stock",
+    "lastsale": "$14.70",
+    "netchange": "-0.43",
+    "pctchange": "-2.842%",
+    "volume": "80126",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/rc^e"
   },
   {
     "symbol": "RDDT",
@@ -28980,48 +28980,6 @@
     "url": "/market-activity/stocks/rf"
   },
   {
-    "symbol": "RF^C",
-    "name": "Regions Financial Corporation Depositary Shares each Representing a 1/40th Interest in a  Share of 5.700% Fixed-to-Floating Rate Non-Cumulative  Perpetual Preferred Stock Series C",
-    "lastsale": "$24.83",
-    "netchange": "0.02",
-    "pctchange": "0.081%",
-    "volume": "17898",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/rf^c"
-  },
-  {
-    "symbol": "RF^E",
-    "name": "Regions Financial Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of 4.45% Non-Cumulative Perpetual Preferred Stock Series E",
-    "lastsale": "$18.30",
-    "netchange": "-0.025",
-    "pctchange": "-0.136%",
-    "volume": "14408",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/rf^e"
-  },
-  {
-    "symbol": "RF^F",
-    "name": "Regions Financial Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of Non-Cumulative Perpetual Preferred Stock Series F",
-    "lastsale": "$25.56",
-    "netchange": "-0.0303",
-    "pctchange": "-0.118%",
-    "volume": "60794",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/rf^f"
-  },
-  {
     "symbol": "RFI",
     "name": "Cohen & Steers Total Return Realty Fund Inc. Common Stock",
     "lastsale": "$11.84",
@@ -29076,6 +29034,48 @@
     "industry": "Trusts Except Educational Religious and Charitable",
     "sector": "Finance",
     "url": "/market-activity/stocks/rfmz"
+  },
+  {
+    "symbol": "RF^C",
+    "name": "Regions Financial Corporation Depositary Shares each Representing a 1/40th Interest in a  Share of 5.700% Fixed-to-Floating Rate Non-Cumulative  Perpetual Preferred Stock Series C",
+    "lastsale": "$24.83",
+    "netchange": "0.02",
+    "pctchange": "0.081%",
+    "volume": "17898",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/rf^c"
+  },
+  {
+    "symbol": "RF^E",
+    "name": "Regions Financial Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of 4.45% Non-Cumulative Perpetual Preferred Stock Series E",
+    "lastsale": "$18.30",
+    "netchange": "-0.025",
+    "pctchange": "-0.136%",
+    "volume": "14408",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/rf^e"
+  },
+  {
+    "symbol": "RF^F",
+    "name": "Regions Financial Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of Non-Cumulative Perpetual Preferred Stock Series F",
+    "lastsale": "$25.56",
+    "netchange": "-0.0303",
+    "pctchange": "-0.118%",
+    "volume": "60794",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/rf^f"
   },
   {
     "symbol": "RGA",
@@ -29918,20 +29918,6 @@
     "url": "/market-activity/stocks/rwt"
   },
   {
-    "symbol": "RWT^A",
-    "name": "Redwood Trust Inc. 10.00% Series A Fixed-Rate Reset Cumulative Redeemable Preferred Stock",
-    "lastsale": "$24.45",
-    "netchange": "-0.055",
-    "pctchange": "-0.224%",
-    "volume": "9490",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/rwt^a"
-  },
-  {
     "symbol": "RWTN",
     "name": "Redwood Trust Inc. 9.125% Senior Notes Due 2029",
     "lastsale": "$25.00",
@@ -29972,6 +29958,20 @@
     "industry": "Real Estate Investment Trusts",
     "sector": "Real Estate",
     "url": "/market-activity/stocks/rwtp"
+  },
+  {
+    "symbol": "RWT^A",
+    "name": "Redwood Trust Inc. 10.00% Series A Fixed-Rate Reset Cumulative Redeemable Preferred Stock",
+    "lastsale": "$24.45",
+    "netchange": "-0.055",
+    "pctchange": "-0.224%",
+    "volume": "9490",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/rwt^a"
   },
   {
     "symbol": "RXO",
@@ -30296,34 +30296,6 @@
     "url": "/market-activity/stocks/sb"
   },
   {
-    "symbol": "SB^C",
-    "name": "Safe Bulkers Inc Cumulative Redeemable Perpetual Preferred Series C (Marshall Islands)",
-    "lastsale": "$25.79",
-    "netchange": "0.03",
-    "pctchange": "0.116%",
-    "volume": "127",
-    "marketCap": "",
-    "country": "Monaco",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/sb^c"
-  },
-  {
-    "symbol": "SB^D",
-    "name": "Safe Bulkers Inc Perpetual Preferred Series D (Marshall Islands)",
-    "lastsale": "$26.14",
-    "netchange": "0.28",
-    "pctchange": "1.083%",
-    "volume": "715",
-    "marketCap": "",
-    "country": "Monaco",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/sb^d"
-  },
-  {
     "symbol": "SBDS",
     "name": "Solo Brands Inc. Class A Common Stock",
     "lastsale": "$14.00",
@@ -30434,6 +30406,34 @@
     "industry": "",
     "sector": "",
     "url": "/market-activity/stocks/sbxd"
+  },
+  {
+    "symbol": "SB^C",
+    "name": "Safe Bulkers Inc Cumulative Redeemable Perpetual Preferred Series C (Marshall Islands)",
+    "lastsale": "$25.79",
+    "netchange": "0.03",
+    "pctchange": "0.116%",
+    "volume": "127",
+    "marketCap": "",
+    "country": "Monaco",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/sb^c"
+  },
+  {
+    "symbol": "SB^D",
+    "name": "Safe Bulkers Inc Perpetual Preferred Series D (Marshall Islands)",
+    "lastsale": "$26.14",
+    "netchange": "0.28",
+    "pctchange": "1.083%",
+    "volume": "715",
+    "marketCap": "",
+    "country": "Monaco",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/sb^d"
   },
   {
     "symbol": "SCCO",
@@ -30842,48 +30842,6 @@
     "url": "/market-activity/stocks/sf"
   },
   {
-    "symbol": "SF^B",
-    "name": "Stifel Financial Corporation Depositary Shares Each Representing 1/1000th  Interest in a Share of 6.25% Non-Cumulative  Preferred Stock Series B",
-    "lastsale": "$24.6901",
-    "netchange": "-0.2893",
-    "pctchange": "-1.158%",
-    "volume": "5872",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/sf^b"
-  },
-  {
-    "symbol": "SF^C",
-    "name": "Stifel Financial Corporation Depositary Shares Each Representing 1/1000th Interest in a Share of 6.125% Non Cumulative Preferred Stock Series C",
-    "lastsale": "$24.7202",
-    "netchange": "-0.0248",
-    "pctchange": "-0.10%",
-    "volume": "6596",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/sf^c"
-  },
-  {
-    "symbol": "SF^D",
-    "name": "Stifel Financial Corporation Depositary Shares Each Representing 1/1000th Interest in a Share of 4.50% Non-Cumulative Preferred Stock Series D",
-    "lastsale": "$18.56",
-    "netchange": "0.08",
-    "pctchange": "0.433%",
-    "volume": "10292",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/sf^d"
-  },
-  {
     "symbol": "SFB",
     "name": "Stifel Financial Corporation 5.20% Senior Notes due 2047",
     "lastsale": "$22.01",
@@ -30924,6 +30882,48 @@
     "industry": "Marine Transportation",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/sfl"
+  },
+  {
+    "symbol": "SF^B",
+    "name": "Stifel Financial Corporation Depositary Shares Each Representing 1/1000th  Interest in a Share of 6.25% Non-Cumulative  Preferred Stock Series B",
+    "lastsale": "$24.6901",
+    "netchange": "-0.2893",
+    "pctchange": "-1.158%",
+    "volume": "5872",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/sf^b"
+  },
+  {
+    "symbol": "SF^C",
+    "name": "Stifel Financial Corporation Depositary Shares Each Representing 1/1000th Interest in a Share of 6.125% Non Cumulative Preferred Stock Series C",
+    "lastsale": "$24.7202",
+    "netchange": "-0.0248",
+    "pctchange": "-0.10%",
+    "volume": "6596",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/sf^c"
+  },
+  {
+    "symbol": "SF^D",
+    "name": "Stifel Financial Corporation Depositary Shares Each Representing 1/1000th Interest in a Share of 4.50% Non-Cumulative Preferred Stock Series D",
+    "lastsale": "$18.56",
+    "netchange": "0.08",
+    "pctchange": "0.433%",
+    "volume": "10292",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/sf^d"
   },
   {
     "symbol": "SG",
@@ -31374,20 +31374,6 @@
     "url": "/market-activity/stocks/slg"
   },
   {
-    "symbol": "SLG^I",
-    "name": "SL Green Realty Corporation Preferred Series I",
-    "lastsale": "$21.68",
-    "netchange": "0.02",
-    "pctchange": "0.092%",
-    "volume": "2592",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/slg^i"
-  },
-  {
     "symbol": "SLGN",
     "name": "Silgan Holdings Inc. Common Stock",
     "lastsale": "$44.64",
@@ -31400,6 +31386,20 @@
     "industry": "Containers/Packaging",
     "sector": "Industrials",
     "url": "/market-activity/stocks/slgn"
+  },
+  {
+    "symbol": "SLG^I",
+    "name": "SL Green Realty Corporation Preferred Series I",
+    "lastsale": "$21.68",
+    "netchange": "0.02",
+    "pctchange": "0.092%",
+    "volume": "2592",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/slg^i"
   },
   {
     "symbol": "SLQT",
@@ -32004,20 +32004,6 @@
     "url": "/market-activity/stocks/spg"
   },
   {
-    "symbol": "SPG^J",
-    "name": "Simon Property Group Inc. Simon Property Group 8 3/8% Series J Cumulative Redeemable Preferred Stock",
-    "lastsale": "$53.435",
-    "netchange": "0.435",
-    "pctchange": "0.821%",
-    "volume": "2105",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/spg^j"
-  },
-  {
     "symbol": "SPGI",
     "name": "S&P Global Inc. Common Stock",
     "lastsale": "$482.70",
@@ -32030,6 +32016,20 @@
     "industry": "Finance: Consumer Services",
     "sector": "Finance",
     "url": "/market-activity/stocks/spgi"
+  },
+  {
+    "symbol": "SPG^J",
+    "name": "Simon Property Group Inc. Simon Property Group 8 3/8% Series J Cumulative Redeemable Preferred Stock",
+    "lastsale": "$53.435",
+    "netchange": "0.435",
+    "pctchange": "0.821%",
+    "volume": "2105",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/spg^j"
   },
   {
     "symbol": "SPH",
@@ -32256,20 +32256,6 @@
     "url": "/market-activity/stocks/sr"
   },
   {
-    "symbol": "SR^A",
-    "name": "Spire Inc. Depositary Shares each representing a 1/1000th interest in a share of 5.90% Series A Cumulative Redeemable Perpetual Preferred Stock",
-    "lastsale": "$25.08",
-    "netchange": "-0.06",
-    "pctchange": "-0.239%",
-    "volume": "2117",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/sr^a"
-  },
-  {
     "symbol": "SRE",
     "name": "DBA Sempra Common Stock",
     "lastsale": "$91.81",
@@ -32380,6 +32366,20 @@
     "industry": "Finance Companies",
     "sector": "Finance",
     "url": "/market-activity/stocks/srv"
+  },
+  {
+    "symbol": "SR^A",
+    "name": "Spire Inc. Depositary Shares each representing a 1/1000th interest in a share of 5.90% Series A Cumulative Redeemable Perpetual Preferred Stock",
+    "lastsale": "$25.08",
+    "netchange": "-0.06",
+    "pctchange": "-0.239%",
+    "volume": "2117",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/sr^a"
   },
   {
     "symbol": "SSB",
@@ -32982,34 +32982,6 @@
     "industry": "Telecommunications Equipment",
     "sector": "Telecommunications",
     "url": "/market-activity/stocks/t"
-  },
-  {
-    "symbol": "T^A",
-    "name": "AT&T Inc. Depositary Shares each representing a 1/1000th interest in a share of 5.000% Perpetual Preferred Stock Series A",
-    "lastsale": "$21.03",
-    "netchange": "-0.02",
-    "pctchange": "-0.095%",
-    "volume": "71788",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/t^a"
-  },
-  {
-    "symbol": "T^C",
-    "name": "AT&T Inc. Depositary Shares each representing a 1/1000th interest in a share of 4.750% Perpetual Preferred Stock Series C",
-    "lastsale": "$19.87",
-    "netchange": "-0.16",
-    "pctchange": "-0.799%",
-    "volume": "447416",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/t^c"
   },
   {
     "symbol": "TAC",
@@ -34762,6 +34734,20 @@
     "url": "/market-activity/stocks/two"
   },
   {
+    "symbol": "TWOD",
+    "name": "Two Harbors Investments Corp 9.375% Senior Notes due 2030",
+    "lastsale": "$26.07",
+    "netchange": "0.00",
+    "pctchange": "0.00%",
+    "volume": "2122",
+    "marketCap": "0.00",
+    "country": "United States",
+    "ipoyear": "2025",
+    "industry": "Real Estate Investment Trusts",
+    "sector": "Real Estate",
+    "url": "/market-activity/stocks/twod"
+  },
+  {
     "symbol": "TWO^A",
     "name": "Two Harbors Investments Corp 8.125% Series A Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock ($25.00 liquidation preference per share)",
     "lastsale": "$23.35",
@@ -34802,20 +34788,6 @@
     "industry": "",
     "sector": "",
     "url": "/market-activity/stocks/two^c"
-  },
-  {
-    "symbol": "TWOD",
-    "name": "Two Harbors Investments Corp 9.375% Senior Notes due 2030",
-    "lastsale": "$26.07",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "2122",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "Real Estate Investment Trusts",
-    "sector": "Real Estate",
-    "url": "/market-activity/stocks/twod"
   },
   {
     "symbol": "TX",
@@ -34888,20 +34860,6 @@
     "url": "/market-activity/stocks/ty"
   },
   {
-    "symbol": "TY^",
-    "name": "Tri Continental Corporation Preferred Stock",
-    "lastsale": "$45.15",
-    "netchange": "-0.37",
-    "pctchange": "-0.813%",
-    "volume": "862",
-    "marketCap": "",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ty^"
-  },
-  {
     "symbol": "TYG",
     "name": "Tortoise Energy Infrastructure Corporation Common Stock",
     "lastsale": "$42.58",
@@ -34928,6 +34886,48 @@
     "industry": "Computer Software: Prepackaged Software",
     "sector": "Technology",
     "url": "/market-activity/stocks/tyl"
+  },
+  {
+    "symbol": "TY^",
+    "name": "Tri Continental Corporation Preferred Stock",
+    "lastsale": "$45.15",
+    "netchange": "-0.37",
+    "pctchange": "-0.813%",
+    "volume": "862",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/ty^"
+  },
+  {
+    "symbol": "T^A",
+    "name": "AT&T Inc. Depositary Shares each representing a 1/1000th interest in a share of 5.000% Perpetual Preferred Stock Series A",
+    "lastsale": "$21.03",
+    "netchange": "-0.02",
+    "pctchange": "-0.095%",
+    "volume": "71788",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/t^a"
+  },
+  {
+    "symbol": "T^C",
+    "name": "AT&T Inc. Depositary Shares each representing a 1/1000th interest in a share of 4.750% Perpetual Preferred Stock Series C",
+    "lastsale": "$19.87",
+    "netchange": "-0.16",
+    "pctchange": "-0.799%",
+    "volume": "447416",
+    "marketCap": "",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/t^c"
   },
   {
     "symbol": "U",
@@ -37338,6 +37338,20 @@
     "url": "/market-activity/stocks/wrb"
   },
   {
+    "symbol": "WRBY",
+    "name": "Warby Parker Inc. Class A Common Stock",
+    "lastsale": "$22.16",
+    "netchange": "0.32",
+    "pctchange": "1.465%",
+    "volume": "1785386",
+    "marketCap": "2702599961.00",
+    "country": "United States",
+    "ipoyear": "2021",
+    "industry": "Ophthalmic Goods",
+    "sector": "Health Care",
+    "url": "/market-activity/stocks/wrby"
+  },
+  {
     "symbol": "WRB^E",
     "name": "W.R. Berkley Corporation 5.70% Subordinated Debentures due 2058",
     "lastsale": "$23.15",
@@ -37392,20 +37406,6 @@
     "industry": "",
     "sector": "",
     "url": "/market-activity/stocks/wrb^h"
-  },
-  {
-    "symbol": "WRBY",
-    "name": "Warby Parker Inc. Class A Common Stock",
-    "lastsale": "$22.16",
-    "netchange": "0.32",
-    "pctchange": "1.465%",
-    "volume": "1785386",
-    "marketCap": "2702599961.00",
-    "country": "United States",
-    "ipoyear": "2021",
-    "industry": "Ophthalmic Goods",
-    "sector": "Health Care",
-    "url": "/market-activity/stocks/wrby"
   },
   {
     "symbol": "WS",
