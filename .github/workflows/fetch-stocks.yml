@@ -81,7 +81,7 @@ jobs:
       - name: Fetch market cap stock data
         run: |
           curl --fail --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' \
-            'https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=25&offset=0&marketcap=mid|large|mega&download=true' \
+            'https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=25&offset=0&marketcap=mid|large|mega|small|micro|nano&download=true' \
             -o /tmp/marketcap.json
       
       - name: Generate marketcap full tickers JSON
