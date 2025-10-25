@@ -125,9 +125,20 @@ jobs:
           mv /tmp/nyse_merged.txt $GITHUB_WORKSPACE/nyse/nyse_tickers.txt
           mv /tmp/nasdaq_merged.txt $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt
           
-          # Update JSON arrays with merged data
-          cat $GITHUB_WORKSPACE/nyse/nyse_tickers.txt | jq -R -s -c 'split("\n")[:-1]' > $GITHUB_WORKSPACE/nyse/nyse_tickers.json
-          cat $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt | jq -R -s -c 'split("\n")[:-1]' > $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.json
+          # Update full JSON objects with market cap data
+          # Extract NYSE market cap entries and merge with existing NYSE full data
+          cat /tmp/marketcap.json | jq '.data.rows | map(select(.exchange == "NYSE"))' > /tmp/marketcap_nyse_full.json
+          jq -s '.[0] + .[1] | unique_by(.symbol)' $GITHUB_WORKSPACE/nyse/nyse_full_tickers.json /tmp/marketcap_nyse_full.json > /tmp/nyse_full_merged.json
+          mv /tmp/nyse_full_merged.json $GITHUB_WORKSPACE/nyse/nyse_full_tickers.json
+          
+          # Extract NASDAQ market cap entries and merge with existing NASDAQ full data
+          cat /tmp/marketcap.json | jq '.data.rows | map(select(.exchange == "NASDAQ"))' > /tmp/marketcap_nasdaq_full.json
+          jq -s '.[0] + .[1] | unique_by(.symbol)' $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json /tmp/marketcap_nasdaq_full.json > /tmp/nasdaq_full_merged.json
+          mv /tmp/nasdaq_full_merged.json $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json
+          
+          # Update JSON arrays with merged data (regenerate from the updated full data)
+          cat $GITHUB_WORKSPACE/nyse/nyse_full_tickers.json | jq '[.[] | .symbol]' > $GITHUB_WORKSPACE/nyse/nyse_tickers.json
+          cat $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json | jq '[.[] | .symbol]' > $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.json
       
       # Combine all exchange data
       - name: Create all tickers directory
