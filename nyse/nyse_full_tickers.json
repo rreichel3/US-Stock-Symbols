@@ -3024,6 +3024,20 @@
     "url": "/market-activity/stocks/atkr"
   },
   {
+    "symbol": "ATMP",
+    "name": "iPath Select MLP ETN",
+    "lastsale": "$27.97",
+    "netchange": "-0.04",
+    "pctchange": "-0.143%",
+    "volume": "23048",
+    "marketCap": "181896350.00",
+    "country": "United Kingdom",
+    "ipoyear": "",
+    "industry": "Commercial Banks",
+    "sector": "Finance",
+    "url": "/market-activity/stocks/atmp"
+  },
+  {
     "symbol": "ATMU",
     "name": "Atmus Filtration Technologies Inc. Common Stock",
     "lastsale": "$45.69",
@@ -6746,6 +6760,20 @@
     "industry": "Major Banks",
     "sector": "Finance",
     "url": "/market-activity/stocks/cbna"
+  },
+  {
+    "symbol": "CBOE",
+    "name": "Cboe Global Markets Inc. Common Stock",
+    "lastsale": "$237.25",
+    "netchange": "-0.10",
+    "pctchange": "-0.042%",
+    "volume": "483080",
+    "marketCap": "26528998438.00",
+    "country": "",
+    "ipoyear": "2010",
+    "industry": "Investment Bankers/Brokers/Service",
+    "sector": "Finance",
+    "url": "/market-activity/stocks/cboe"
   },
   {
     "symbol": "CBRE",
@@ -13396,6 +13424,20 @@
     "industry": "Farming/Seeds/Milling",
     "sector": "Consumer Staples",
     "url": "/market-activity/stocks/fdp"
+  },
+  {
+    "symbol": "FDS",
+    "name": "FactSet Research Systems Inc. Common Stock",
+    "lastsale": "$286.84",
+    "netchange": "-3.08",
+    "pctchange": "-1.062%",
+    "volume": "739777",
+    "marketCap": "10743972550.00",
+    "country": "United States",
+    "ipoyear": "2000",
+    "industry": "Computer Software: Programming Data Processing",
+    "sector": "Technology",
+    "url": "/market-activity/stocks/fds"
   },
   {
     "symbol": "FDX",
@@ -36512,6 +36554,34 @@
     "url": "/market-activity/stocks/vvx"
   },
   {
+    "symbol": "VXX",
+    "name": "iPath Series B S&P 500 VIX Short-Term Futures ETN",
+    "lastsale": "$33.47",
+    "netchange": "-0.78",
+    "pctchange": "-2.277%",
+    "volume": "5250553",
+    "marketCap": "822525250.00",
+    "country": "United Kingdom",
+    "ipoyear": "2018",
+    "industry": "Commercial Banks",
+    "sector": "Finance",
+    "url": "/market-activity/stocks/vxx"
+  },
+  {
+    "symbol": "VXZ",
+    "name": "iPath Series B S&P 500 VIX Mid-Term Futures ETN",
+    "lastsale": "$56.2228",
+    "netchange": "-0.3372",
+    "pctchange": "-0.596%",
+    "volume": "3216",
+    "marketCap": "148709306.00",
+    "country": "United Kingdom",
+    "ipoyear": "2018",
+    "industry": "Commercial Banks",
+    "sector": "Finance",
+    "url": "/market-activity/stocks/vxz"
+  },
+  {
     "symbol": "VYX",
     "name": "NCR Voyix Corporation Common Stock",
     "lastsale": "$11.81",
@@ -36524,6 +36594,20 @@
     "industry": "Office Equipment/Supplies/Services",
     "sector": "Miscellaneous",
     "url": "/market-activity/stocks/vyx"
+  },
+  {
+    "symbol": "VZ",
+    "name": "Verizon Communications Inc. Common Stock",
+    "lastsale": "$38.40",
+    "netchange": "-1.40",
+    "pctchange": "-3.518%",
+    "volume": "52663607",
+    "marketCap": "161906872627.00",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "Telecommunications Equipment",
+    "sector": "Telecommunications",
+    "url": "/market-activity/stocks/vz"
   },
   {
     "symbol": "W",
