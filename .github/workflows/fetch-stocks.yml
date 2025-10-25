@@ -11,56 +11,85 @@ on:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       # Generate NASDAQ Data
-      - name: make-nasdaq-directory
+      - name: Create NASDAQ directory
         run: mkdir -p $GITHUB_WORKSPACE/nasdaq
-      - name: get-nasdaq
-        run: "curl --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' https://api.nasdaq.com/api/screener/stocks\\?tableonly\\=true\\&limit\\=25\\&offset\\=0\\&exchange\\=nasdaq\\&download\\=true > /tmp/nasdaq.json"
-      - name: gen-nasdaq-stock-tickers-json
+      
+      - name: Fetch NASDAQ stock data
+        run: |
+          curl --fail --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' \
+            'https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=25&offset=0&exchange=NASDAQ&download=true' \
+            -o /tmp/nasdaq.json
+      
+      - name: Generate NASDAQ full tickers JSON
         run: "cat /tmp/nasdaq.json | jq '.data.rows' > $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json"
-      - name: gen-nasdaq-stock-tickers-json
+      
+      - name: Generate NASDAQ tickers JSON array
         run: "cat /tmp/nasdaq.json | jq '[.data.rows | .[] | .symbol]' > $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.json"
-      - name: gen-nasdaq-stock-tickers-txt
-        run: "cat /tmp/nasdaq.json | jq '[.data.rows | .[] | .symbol]' | grep -Ei '([A-Za-z]+)' -o > $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt"
+      
+      - name: Generate NASDAQ tickers text file
+        run: "cat /tmp/nasdaq.json | jq -r '.data.rows | .[] | .symbol' > $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt"
       
       # Generate NYSE Data
-      - name: make-nyse-directory
+      - name: Create NYSE directory
         run: mkdir -p $GITHUB_WORKSPACE/nyse
-      - name: get-nyse
-        run: "curl --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' https://api.nasdaq.com/api/screener/stocks\\?tableonly\\=true\\&limit\\=25\\&offset\\=0\\&exchange\\=nyse\\&download\\=true > /tmp/nyse.json"
-      - name: gen-nyse-stock-tickers-json
+      
+      - name: Fetch NYSE stock data
+        run: |
+          curl --fail --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' \
+            'https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=25&offset=0&exchange=NYSE&download=true' \
+            -o /tmp/nyse.json
+      
+      - name: Generate NYSE full tickers JSON
         run: "cat /tmp/nyse.json | jq '.data.rows' > $GITHUB_WORKSPACE/nyse/nyse_full_tickers.json"
-      - name: gen-nyse-stock-tickers-json
+      
+      - name: Generate NYSE tickers JSON array
         run: "cat /tmp/nyse.json | jq '[.data.rows | .[] | .symbol]' > $GITHUB_WORKSPACE/nyse/nyse_tickers.json"
-      - name: gen-nyse-stock-tickers-txt
-        run: "cat /tmp/nyse.json | jq '[.data.rows | .[] | .symbol]' | grep -Ei '([A-Za-z]+)' -o > $GITHUB_WORKSPACE/nyse/nyse_tickers.txt"
+      
+      - name: Generate NYSE tickers text file
+        run: "cat /tmp/nyse.json | jq -r '.data.rows | .[] | .symbol' > $GITHUB_WORKSPACE/nyse/nyse_tickers.txt"
       # Generate AMEX Data
-      - name: make-amex-directory
+      - name: Create AMEX directory
         run: mkdir -p $GITHUB_WORKSPACE/amex
-      - name: get-amex
-        run: "curl --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' https://api.nasdaq.com/api/screener/stocks\\?tableonly\\=true\\&limit\\=25\\&offset\\=0\\&exchange\\=amex\\&download\\=true > /tmp/amex.json"
-      - name: gen-amex-stock-tickers-json
+      
+      - name: Fetch AMEX stock data
+        run: |
+          curl --fail --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' \
+            'https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=25&offset=0&exchange=AMEX&download=true' \
+            -o /tmp/amex.json
+      
+      - name: Generate AMEX full tickers JSON
         run: "cat /tmp/amex.json | jq '.data.rows' > $GITHUB_WORKSPACE/amex/amex_full_tickers.json"
-      - name: gen-amex-stock-tickers-json
+      
+      - name: Generate AMEX tickers JSON array
         run: "cat /tmp/amex.json | jq '[.data.rows | .[] | .symbol]' > $GITHUB_WORKSPACE/amex/amex_tickers.json"
-      - name: gen-amex-stock-tickers-txt
-        run: "cat /tmp/amex.json | jq '[.data.rows | .[] | .symbol]' | grep -Ei '([A-Za-z]+)' -o > $GITHUB_WORKSPACE/amex/amex_tickers.txt"
-      # Concat all Data
-      - name: make-all-directory
+      
+      - name: Generate AMEX tickers text file
+        run: "cat /tmp/amex.json | jq -r '.data.rows | .[] | .symbol' > $GITHUB_WORKSPACE/amex/amex_tickers.txt"
+      # Combine all exchange data
+      - name: Create all tickers directory
         run: mkdir -p $GITHUB_WORKSPACE/all
-      - name: concat-files
+      
+      - name: Combine all ticker files
         run: cat $GITHUB_WORKSPACE/amex/amex_tickers.txt $GITHUB_WORKSPACE/nyse/nyse_tickers.txt $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt > /tmp/all_tickers.txt
-      - name: head
-        run: cat /tmp/all_tickers.txt | sort -u | uniq > $GITHUB_WORKSPACE/all/all_tickers.txt
+      
+      - name: Sort and deduplicate all tickers
+        run: cat /tmp/all_tickers.txt | sort -u > $GITHUB_WORKSPACE/all/all_tickers.txt
       - name: commit-new-files
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "generated"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update stock symbols - $(date)"
+            git push
+          fi
