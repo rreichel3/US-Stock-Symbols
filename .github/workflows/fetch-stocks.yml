@@ -203,6 +203,10 @@ jobs:
       
       - name: Sort and deduplicate all tickers
         run: cat /tmp/all_tickers.txt | sort -u > $GITHUB_WORKSPACE/all/all_tickers.txt
+      
+      - name: Generate all tickers JSON array
+        run: cat $GITHUB_WORKSPACE/all/all_tickers.txt | jq -R -s 'split("\n")[:-1]' > $GITHUB_WORKSPACE/all/all_tickers.json
+      
       - name: commit-new-files
         run: |
           git config user.name "github-actions[bot]"
