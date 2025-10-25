@@ -74,44 +74,40 @@ jobs:
       - name: Generate AMEX tickers text file
         run: "cat /tmp/amex.json | jq -r '.data.rows | .[] | .symbol' > $GITHUB_WORKSPACE/amex/amex_tickers.txt"
       
-      # Generate Market Cap Data
-      - name: Create marketcap directory
-        run: mkdir -p $GITHUB_WORKSPACE/marketcap
-      
+      # Fetch and merge market cap data into NYSE and NASDAQ
       - name: Fetch market cap stock data
         run: |
           curl --fail --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:85.0) Gecko/20100101 Firefox/85.0' \
             'https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=25&offset=0&marketcap=mid|large|mega|small|micro|nano&download=true' \
             -o /tmp/marketcap.json
       
-      - name: Generate marketcap full tickers JSON
-        run: "cat /tmp/marketcap.json | jq '.data.rows' > $GITHUB_WORKSPACE/marketcap/marketcap_full_tickers.json"
-      
-      - name: Generate marketcap tickers JSON array
-        run: "cat /tmp/marketcap.json | jq '[.data.rows | .[] | .symbol]' > $GITHUB_WORKSPACE/marketcap/marketcap_tickers.json"
-      
-      - name: Generate marketcap tickers text file
-        run: "cat /tmp/marketcap.json | jq -r '.data.rows | .[] | .symbol' > $GITHUB_WORKSPACE/marketcap/marketcap_tickers.txt"
-      
-      # Document new additions from market cap data
-      - name: Document new market cap tickers
+      - name: Extract and merge market cap data into exchange lists
         run: |
-          # Create combined list of existing tickers (without marketcap)
+          # Extract NYSE and NASDAQ tickers from market cap data
+          cat /tmp/marketcap.json | jq -r '.data.rows[] | select(.exchange == "NYSE") | .symbol' > /tmp/marketcap_nyse.txt
+          cat /tmp/marketcap.json | jq -r '.data.rows[] | select(.exchange == "NASDAQ") | .symbol' > /tmp/marketcap_nasdaq.txt
+          
+          # Create combined list of existing tickers for logging
           cat $GITHUB_WORKSPACE/amex/amex_tickers.txt $GITHUB_WORKSPACE/nyse/nyse_tickers.txt $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt | sort -u > /tmp/existing_tickers.txt
           
-          # Find tickers that are in marketcap but not in existing data
-          comm -23 <(sort $GITHUB_WORKSPACE/marketcap/marketcap_tickers.txt) <(sort /tmp/existing_tickers.txt) > /tmp/new_marketcap_tickers.txt
+          # Find new tickers from market cap data
+          cat /tmp/marketcap_nyse.txt /tmp/marketcap_nasdaq.txt | sort -u > /tmp/all_marketcap_tickers.txt
+          comm -23 <(sort /tmp/all_marketcap_tickers.txt) <(sort /tmp/existing_tickers.txt) > /tmp/new_marketcap_tickers.txt
           
           # Log the results
           NEW_COUNT=$(wc -l < /tmp/new_marketcap_tickers.txt)
-          TOTAL_MARKETCAP=$(wc -l < $GITHUB_WORKSPACE/marketcap/marketcap_tickers.txt)
+          TOTAL_MARKETCAP=$(wc -l < /tmp/all_marketcap_tickers.txt)
+          NYSE_ADDED=$(comm -23 <(sort /tmp/marketcap_nyse.txt) <(sort $GITHUB_WORKSPACE/nyse/nyse_tickers.txt) | wc -l)
+          NASDAQ_ADDED=$(comm -23 <(sort /tmp/marketcap_nasdaq.txt) <(sort $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt) | wc -l)
           
           echo "=== Market Cap Ticker Analysis ==="
           echo "Total market cap tickers fetched: $TOTAL_MARKETCAP"
           echo "New tickers not in existing exchanges: $NEW_COUNT"
+          echo "NYSE tickers to be added: $NYSE_ADDED"
+          echo "NASDAQ tickers to be added: $NASDAQ_ADDED"
           
           if [ $NEW_COUNT -gt 0 ]; then
-            echo "New tickers added from market cap API:"
+            echo "New tickers being added:"
             cat /tmp/new_marketcap_tickers.txt | head -20
             if [ $NEW_COUNT -gt 20 ]; then
               echo "... and $(($NEW_COUNT - 20)) more"
@@ -120,13 +116,25 @@ jobs:
             echo "No new tickers found - all market cap tickers already exist in exchange data"
           fi
           echo "=================================="
+          
+          # Merge market cap tickers into respective exchange files
+          cat $GITHUB_WORKSPACE/nyse/nyse_tickers.txt /tmp/marketcap_nyse.txt | sort -u > /tmp/nyse_merged.txt
+          cat $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt /tmp/marketcap_nasdaq.txt | sort -u > /tmp/nasdaq_merged.txt
+          
+          # Replace original files with merged versions
+          mv /tmp/nyse_merged.txt $GITHUB_WORKSPACE/nyse/nyse_tickers.txt
+          mv /tmp/nasdaq_merged.txt $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt
+          
+          # Update JSON arrays with merged data
+          cat $GITHUB_WORKSPACE/nyse/nyse_tickers.txt | jq -R -s -c 'split("\n")[:-1]' > $GITHUB_WORKSPACE/nyse/nyse_tickers.json
+          cat $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt | jq -R -s -c 'split("\n")[:-1]' > $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.json
       
       # Combine all exchange data
       - name: Create all tickers directory
         run: mkdir -p $GITHUB_WORKSPACE/all
       
       - name: Combine all ticker files
-        run: cat $GITHUB_WORKSPACE/amex/amex_tickers.txt $GITHUB_WORKSPACE/nyse/nyse_tickers.txt $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt $GITHUB_WORKSPACE/marketcap/marketcap_tickers.txt > /tmp/all_tickers.txt
+        run: cat $GITHUB_WORKSPACE/amex/amex_tickers.txt $GITHUB_WORKSPACE/nyse/nyse_tickers.txt $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt > /tmp/all_tickers.txt
       
       - name: Sort and deduplicate all tickers
         run: cat /tmp/all_tickers.txt | sort -u > $GITHUB_WORKSPACE/all/all_tickers.txt
