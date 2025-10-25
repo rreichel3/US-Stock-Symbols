@@ -83,62 +83,53 @@ jobs:
       
       - name: Extract and merge market cap data into exchange lists
         run: |
-          # Extract NYSE and NASDAQ tickers from market cap data
-          cat /tmp/marketcap.json | jq -r '.data.rows[] | select(.exchange == "NYSE") | .symbol' > /tmp/marketcap_nyse.txt
-          cat /tmp/marketcap.json | jq -r '.data.rows[] | select(.exchange == "NASDAQ") | .symbol' > /tmp/marketcap_nasdaq.txt
+          # Get all market cap tickers
+          cat /tmp/marketcap.json | jq -r '.data.rows[] | .symbol' > /tmp/all_marketcap_tickers.txt
           
-          # Create combined list of existing tickers for logging
+          # Create combined list of existing tickers for comparison
           cat $GITHUB_WORKSPACE/amex/amex_tickers.txt $GITHUB_WORKSPACE/nyse/nyse_tickers.txt $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt | sort -u > /tmp/existing_tickers.txt
           
-          # Find new tickers from market cap data
-          cat /tmp/marketcap_nyse.txt /tmp/marketcap_nasdaq.txt | sort -u > /tmp/all_marketcap_tickers.txt
+          # Find new tickers that aren't in any existing exchange
           comm -23 <(sort /tmp/all_marketcap_tickers.txt) <(sort /tmp/existing_tickers.txt) > /tmp/new_marketcap_tickers.txt
           
           # Log the results
           NEW_COUNT=$(wc -l < /tmp/new_marketcap_tickers.txt)
           TOTAL_MARKETCAP=$(wc -l < /tmp/all_marketcap_tickers.txt)
-          NYSE_ADDED=$(comm -23 <(sort /tmp/marketcap_nyse.txt) <(sort $GITHUB_WORKSPACE/nyse/nyse_tickers.txt) | wc -l)
-          NASDAQ_ADDED=$(comm -23 <(sort /tmp/marketcap_nasdaq.txt) <(sort $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt) | wc -l)
           
           echo "=== Market Cap Ticker Analysis ==="
           echo "Total market cap tickers fetched: $TOTAL_MARKETCAP"
-          echo "New tickers not in existing exchanges: $NEW_COUNT"
-          echo "NYSE tickers to be added: $NYSE_ADDED"
-          echo "NASDAQ tickers to be added: $NASDAQ_ADDED"
+          echo "New tickers not in any existing exchange: $NEW_COUNT"
           
           if [ $NEW_COUNT -gt 0 ]; then
-            echo "New tickers being added:"
+            echo "New tickers being added to NYSE and NASDAQ:"
             cat /tmp/new_marketcap_tickers.txt | head -20
             if [ $NEW_COUNT -gt 20 ]; then
               echo "... and $(($NEW_COUNT - 20)) more"
             fi
+            
+            # Add new tickers to both NYSE and NASDAQ
+            cat $GITHUB_WORKSPACE/nyse/nyse_tickers.txt /tmp/new_marketcap_tickers.txt | sort -u > /tmp/nyse_merged.txt
+            cat $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt /tmp/new_marketcap_tickers.txt | sort -u > /tmp/nasdaq_merged.txt
+            
+            mv /tmp/nyse_merged.txt $GITHUB_WORKSPACE/nyse/nyse_tickers.txt
+            mv /tmp/nasdaq_merged.txt $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt
+            
+            # Add new ticker objects to full JSON files
+            cat /tmp/marketcap.json | jq --argjson new_tickers "$(cat /tmp/new_marketcap_tickers.txt | jq -R -s 'split("\n")[:-1]')" '.data.rows | map(select(.symbol | IN($new_tickers[])))' > /tmp/new_ticker_objects.json
+            
+            jq -s '.[0] + .[1] | unique_by(.symbol)' $GITHUB_WORKSPACE/nyse/nyse_full_tickers.json /tmp/new_ticker_objects.json > /tmp/nyse_full_merged.json
+            jq -s '.[0] + .[1] | unique_by(.symbol)' $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json /tmp/new_ticker_objects.json > /tmp/nasdaq_full_merged.json
+            
+            mv /tmp/nyse_full_merged.json $GITHUB_WORKSPACE/nyse/nyse_full_tickers.json
+            mv /tmp/nasdaq_full_merged.json $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json
+            
+            # Update JSON arrays
+            cat $GITHUB_WORKSPACE/nyse/nyse_tickers.txt | jq -R -s -c 'split("\n")[:-1]' > $GITHUB_WORKSPACE/nyse/nyse_tickers.json
+            cat $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt | jq -R -s -c 'split("\n")[:-1]' > $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.json
           else
             echo "No new tickers found - all market cap tickers already exist in exchange data"
           fi
           echo "=================================="
-          
-          # Merge market cap tickers into respective exchange files
-          cat $GITHUB_WORKSPACE/nyse/nyse_tickers.txt /tmp/marketcap_nyse.txt | sort -u > /tmp/nyse_merged.txt
-          cat $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt /tmp/marketcap_nasdaq.txt | sort -u > /tmp/nasdaq_merged.txt
-          
-          # Replace original files with merged versions
-          mv /tmp/nyse_merged.txt $GITHUB_WORKSPACE/nyse/nyse_tickers.txt
-          mv /tmp/nasdaq_merged.txt $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.txt
-          
-          # Update full JSON objects with market cap data
-          # Extract NYSE market cap entries and merge with existing NYSE full data
-          cat /tmp/marketcap.json | jq '.data.rows | map(select(.exchange == "NYSE"))' > /tmp/marketcap_nyse_full.json
-          jq -s '.[0] + .[1] | unique_by(.symbol)' $GITHUB_WORKSPACE/nyse/nyse_full_tickers.json /tmp/marketcap_nyse_full.json > /tmp/nyse_full_merged.json
-          mv /tmp/nyse_full_merged.json $GITHUB_WORKSPACE/nyse/nyse_full_tickers.json
-          
-          # Extract NASDAQ market cap entries and merge with existing NASDAQ full data
-          cat /tmp/marketcap.json | jq '.data.rows | map(select(.exchange == "NASDAQ"))' > /tmp/marketcap_nasdaq_full.json
-          jq -s '.[0] + .[1] | unique_by(.symbol)' $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json /tmp/marketcap_nasdaq_full.json > /tmp/nasdaq_full_merged.json
-          mv /tmp/nasdaq_full_merged.json $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json
-          
-          # Update JSON arrays with merged data (regenerate from the updated full data)
-          cat $GITHUB_WORKSPACE/nyse/nyse_full_tickers.json | jq '[.[] | .symbol]' > $GITHUB_WORKSPACE/nyse/nyse_tickers.json
-          cat $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json | jq '[.[] | .symbol]' > $GITHUB_WORKSPACE/nasdaq/nasdaq_tickers.json
       
       # Combine all exchange data
       - name: Create all tickers directory
