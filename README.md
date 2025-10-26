@@ -1,8 +1,12 @@
-# US-Stock-Symbols
+# Improved-US-Stock-Symbols
+
+An improved version of https://github.com/rreichel3/US-Stock-Symbols, an unmaintained repo that had open issues due to the inner functions of the GET https://api.nasdaq.com/api/screener/stocks api for stock screening.
+
+This repository addresses key issues https://github.com/rreichel3/US-Stock-Symbols/issues/4 and https://github.com/rreichel3/US-Stock-Symbols/issues/3, while also resolving bugs such as https://github.com/rreichel3/US-Stock-Symbols/issues/7. These issues not only affected the feature set but also the core functionality of the project, as having reliable, full data updated daily was the main purpose of the repo.
 
 An aggregation of current US Stock Symbols in `json` and `txt` formats.  
 
-Updated nightly at midnight, Eastern.
+Updated daily at midnight.
 ## Exchanges Available:
 
 - NASDAQ
