@@ -207,6 +207,9 @@ jobs:
       - name: Generate all tickers JSON array
         run: cat $GITHUB_WORKSPACE/all/all_tickers.txt | jq -R -s 'split("\n")[:-1]' > $GITHUB_WORKSPACE/all/all_tickers.json
       
+      - name: Generate all full tickers JSON
+        run: jq -s '.[0] + .[1] + .[2] | unique_by(.symbol)' $GITHUB_WORKSPACE/amex/amex_full_tickers.json $GITHUB_WORKSPACE/nyse/nyse_full_tickers.json $GITHUB_WORKSPACE/nasdaq/nasdaq_full_tickers.json > $GITHUB_WORKSPACE/all/all_full_tickers.json
+      
       - name: commit-new-files
         run: |
           git config user.name "github-actions[bot]"
