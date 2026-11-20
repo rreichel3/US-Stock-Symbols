@@ -2,7 +2,7 @@
 
 An aggregation of current US Stock Symbols in `json` and `txt` formats.  
 
-Updated nightly at midnight, Eastern.
+Refreshes are scheduled daily at 00:00 UTC and on weekdays at 13:17, 16:17, 19:17, and 22:17 UTC. A new listing appears once Nasdaq's screener includes it and a refresh publishes the updated files.
 ## Exchanges Available:
 
 - NASDAQ

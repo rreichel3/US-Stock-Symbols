@@ -4,8 +4,14 @@ name: Download Latest Stocks
 on:
   schedule:
     - cron: "0 0 * * *"
+    # Additional weekday checks before, during, and after the US session (UTC).
+    - cron: "17 13,16,19,22 * * 1-5"
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+# Serialize scheduled and manual updates to the same branch.
+concurrency:
+  group: stock-symbols-${{ github.ref }}
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -14,7 +20,7 @@ jobs:
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v6
 
       # Generate NASDAQ Data
       - name: make-nasdaq-directory
@@ -62,5 +68,9 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
+          if git diff --cached --quiet; then
+            echo "No stock data changes to publish."
+            exit 0
+          fi
           git commit -m "generated"
           git push
