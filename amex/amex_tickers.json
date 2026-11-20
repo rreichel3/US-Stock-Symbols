@@ -93,6 +93,7 @@
   "FJET",
   "FLYX",
   "FLYX.WS",
+  "FMBM",
   "FSI",
   "FSP",
   "FTF",
@@ -154,7 +155,6 @@
   "LPA",
   "LSF",
   "LUD",
-  "LXFR",
   "MAIA",
   "MCRP",
   "MDRN",
@@ -301,5 +301,6 @@
   "XTNT",
   "YCBD",
   "ZDGE",
+  "ZOAR",
   "ZONE"
 ]
